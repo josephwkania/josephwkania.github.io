@@ -1,0 +1,139 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Observe | e-MERLIN</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="author" content="Rob Beswick" />
+	<meta name="keywords" content="e-MERLIN,National Facility,telescope,VLBI" />
+	<link rel="StyleSheet" type="text/css" href="http://www.souk.ac.uk/medialibrary/style.css" media="screen,print" />
+
+	<link rel="StyleSheet" type="text/css" href="http://www.souk.ac.uk/medialibrary/print.css" media="print" />
+	<link rel="SHORTCUT ICON" href="http://www.manchester.ac.uk/medialibrary/images/corporate/favicon.ico" />
+	<script type="text/javascript" src="http://www.souk.ac.uk/medialibrary/js/jquery-1.2.6.min.js"></script>
+</head>
+<body>
+<div><a name="pagetop"></a></div>
+<div class="nav-skiplinks"><a href="#body" title="Skip to main content">Go to main content</a>&nbsp;<a href="#navigation" title="Skip to main navigation">Go to main navigation</a>&nbsp;<a href="#subnav" title="Skip to section navigation">Go to section navigation</a>
+</div>
+<!-- Start of header -->
+<div id="header">
+
+	<!-- Start of tools -->
+	<!--
+	<div id="toolbar">
+		<form action="http://www.souk.ac.uk/search/" method="get" id="search">
+		<p>
+			<a href="/">Home</a> | 
+			<a href="/aboutus/a-z/">A-Z</a> | 
+			<a href="/contact/">Contacts</a> | 
+			<a href="/local/">Intranet</a> | 
+			<label class="hidden" for="q">Search</label>
+			<input type="text" value="Search" id="q" name="q" onfocus="if(this.value=='Search'){this.value='';}return;" onblur="if(this.value==''){this.value='Search'};return;" /><input type="submit" value="Go" id="searchgo" alt="Search" title="Search" />
+		</p>
+		</form>
+	</div>--> <!-- End of tools -->
+</div> <!-- End of header -->
+<div id="contentandsides">
+	<div id="logo">
+		<div id="logoevn"><a href="http://www.evlbi.org/"><img src="http://www.souk.ac.uk/medialibrary/evn_small.gif" alt="EVN" title="European VLBI Network" /></a></div>
+		<a href="http://www.souk.ac.uk"><img src="http://www.souk.ac.uk/medialibrary/emerlinlogo.png" class="emerlin" alt="e-MERLIN" /></a>
+	</div>
+	<div id="title"> e-MERLIN / VLBI National Radio Astronomy Facility</div>
+
+	<div id="tabbedbar">
+		<div class="tab">
+			<a name="navigation"></a>
+			<ul>
+			<li><a href="http://www.souk.ac.uk/" title="The front page of the e-MERLIN website">Home</a></li>
+			<li><a href="http://www.souk.ac.uk/news/" title="Science highlights from MERLIN and e-MERLIN">News</a></li>
+			<li><a href="http://www.souk.ac.uk/sci/" title="Science Capabilities">Science</a></li>
+
+			<li><a href="http://www.souk.ac.uk/tech/" title="Description of the technical abilities of e-MERLIN">Technical Capabilities</a></li>
+			<li><a href="http://www.souk.ac.uk/status.html" title="The current status of e-MERLIN">Status</a></li>
+			<li><span><a href="http://www.souk.ac.uk/observe/" title="Information about how to use the National Facility">Observe</a></span></li>
+			<li><a href="http://www.souk.ac.uk/legacy/" title="The e-MERLIN Science Legacy Programme">Legacy Programme</a></li>
+			<li><a href="http://www.souk.ac.uk/archive/" title="Access MERLIN and e-MERLIN archive data">Archive</a></li>
+			<li><a href="http://www.souk.ac.uk/vlbi/" title="Very Long Baseline Interferometry">VLBI</a></li>
+
+			<li><a href="http://www.souk.ac.uk/merlin/" title="MERLIN">MERLIN</a></li>
+			</ul>
+		</div> <!-- End of tabs -->
+	</div> <!-- End of main menu -->
+	<div style="clear:both;"></div>
+	<a name="subnav"></a>
+	<div id="left">
+
+					<h2><a href="/">e-MERLIN</a></h2>
+			<ul>
+			<li><a href="http://www.souk.ac.uk/observe/call_cycle0.html">Cycle-0 Call for proposals</a>
+			<li><a href="http://www.souk.ac.uk/observe/cycle0.html">Cycle-0 Technical capabilities</a>
+			<li><a href="http://www.souk.ac.uk/observe/northstar.html">Proposal submission tool</a>
+			<li><a href="http://www.souk.ac.uk/observe/eMERLINost.html">e-MERLIN observation simulator tool</a>
+
+			<li><a href="/sci/">Science capabilities</a>
+			<li><a href="/legacy/">Science Legacy Programme</a></li>
+			<li><a href="/tech/">Technical Capabilities</a></li>
+			<li><a href="/status.html">Status update</a></li>
+			<h2 class="related"><a href="http://www.evlbi.org">EVN</a></h2>
+			<li><a href="http://www.evlbi.org/proposals/prop.html">EVN proposal information</a></li>
+
+			<li><a href="http://proposal.jive.nl">EVN proposal tool</a></li>
+			</ul>
+
+	</div>
+	<a name="body"></a>
+	<!-- Start of page content -->
+	<div id="main">
+<p>
+<center><h2>e-MERLIN Time Awards</h2></p></center>
+
+<p>e-MERLIN is operated by the 
+<a href="http://www.manchester.ac.uk/">University of Manchester</a> as a 
+National Facility of the Science &amp; Technology Facilities 
+Council (<a href="http://www.scitech.ac.uk/">STFC</a>), and is available 
+for use on a peer-review basis, with observing proposals dealt with by 
+the Panel for Allocation of Telescope Time (PATT). The links below give
+details of observing time allocated during each of the observing semesters
+since 2012.</p>
+<p><a href="http://www.souk.ac.uk/observing/TAGtable0_2012.html">Cycle 0 (2012) Time Awards</a></p>
+
+
+	<!-- End of page content -->
+	</div>
+	<div id="footer">
+		<div class="update">
+			<a href="http://www.manchester.ac.uk/"><img src="http://www.souk.ac.uk/medialibrary/logo_man_colour_compact.png" alt="University of Manchester" title="The University of Manchester" /></a>
+
+			<a href="http://www.stfc.ac.uk/"><img src="http://www.souk.ac.uk/medialibrary/stfc.png" alt="STFC" title="The Science and Technology Facilities Council" /></a>
+		</div>
+		<div class="contact vcard">
+			Last updated: Monday 12 December 2011 (16:51)
+			<br />Page Editor: Rob Beswick
+			<div class="adr">
+				<div class="fn org">
+					<span class="organization-name">e-MERLIN/VLBI National Facility</span>,
+					<a class="organization-unit" href="http://www.jodrellbank.manchester.ac.uk/">Jodrell Bank Observatory</a>,
+					<a class="organization-unit extended-address" href="http://www.manchester.ac.uk/">University of Manchester</a></span>,
+				</div>
+
+				<div>
+					<span class="locality">Macclesfield</span>,
+					<span class="postal-code">SK11 9DL</span>,
+					<span class="country-name">United Kingdom</span>
+				</div>
+				<div>
+					<span class="country-name"> <a href="http://www.souk.ac.uk/contact.html">Contact us</a></span
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+

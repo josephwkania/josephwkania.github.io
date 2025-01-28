@@ -1,0 +1,38 @@
+<!--#set var="section" value="observe" -->
+<!--#set var="title" value="Observe" -->
+<!--#set var="author" value="Megan Argo" -->
+<!--#set var="keywords" value="e-MERLIN,National Facility,telescope,VLBI" -->
+<!--#include virtual="/cgi-bin/emerlin_header.pl?section=$section&sub=$sub&title=$title&author=$author&keywords=$keywords&related=$related&javascript=$javascript"-->
+
+<h1>Processing e-MERLIN data with the pipeline</h1>
+
+<p>The e-MERLIN pipeline is written in <a href="http://www.python.org/">Python</a> and uses the <a href="http://www.jive.nl/jivewiki/doku.php?id=parseltongue:parseltongue">ParselTongue</a> interface to <a href="http://www.aips.nrao.edu/">AIPS</a>.  <em>You will need all of these installed in order to use it.</em></p>
+
+<p>Please note that we are still developing the pipeline.  The current public release (v0.7) will process, calibrate and image a standard continuum dataset containing observations of 3C286, OQ208, a source and its associated phase calibrator.  The calibration follows that described in the cookbook, but it is not intelligent and is unlikely to produce paper-ready images.  If you calibrate your data using the pipeline, we advise you to edit your solutions manually, and inspect the plots produced, and your results, carefully.</p>
+
+<p>The code is now <a href="https://github.com/mkargo/pipeline">archived publicly at GitHub</a> and you should download it from there.  It also has an entry in the Astrophysics Source Code Library (<a href="http://ascl.net/1407.017">ascl:1407.017</a>) and has a doi (for v0.7: <a href="http://dx.doi.org/10.5281/zenodo.10163">10.5281/zenodo.10163</a>); if you make use of the pipeline in your research, please include an acknowledgement when you publish it.
+</p>
+
+
+<p>The pipeline requires the following files:
+<ul>
+  <li><a href="eMERLIN_tasks.py">eMERLIN_tasks.py</a> - the task definitions</li>
+  <li><a href="eMERLIN_pipeline.py">eMERLIN_pipeline.py</a> - the pipeline script</li>
+  <li><a href="doall_inputs">doall_inputs</a> - an example inputs script which is required to drive the operation of the pipeline</li>
+  <li><a href="flagmask512.fg">flagmask512.fg</a> - a flag mask for the worst of the known RFI (applied if doflagmask=1 in the inputs file)</li>
+</ul>
+All of these files are included in the Github distribution, together with a small readme file describing how to run it.  For further updates please check with e-merlin@jb.man.ac.uk</p>
+
+<p>There is now a cookbook (see the <a href="http://www.souk.ac.uk/data_red/">support pages</a> for details) describing the procedures for reduction of e-MERLIN data, including more detailed descriptions of the pipeline operation and recommended parameters.  Any comments, feedback or bug reports should be sent to the e-MERLIN team at <a class="email" href="mailto:emerlinhelp@jb.man.ac.uk">emerlinhelp@jb.man.ac.uk</a>.
+</p>
+
+<p><strong>Test data</strong>: for the purposes of verification, test datasets are available.  They was observed for use by students at the first e-MERLIN data reduction school, held at JBCA in early 2014.  There are <a href="SCHOOL_L-MULT.nTables.fits">L-band</a> (104MB) and <a href="DATASCHOOL_Cband.FITS">C-band</a> (15GB) observations of the gavitational lens system B1938+666, plus an associated phase calibrator, together with scans on the standard e-MERLIN calibrators 3C286 (1331+305) and OQ208 (1407+284).
+</p>
+
+<p>
+You may find the AIPS helpsheet useful (<a href="http://www.rigel.org.uk/work/aips_helpsheet.txt">plain text</a>, <a href="http://www.rigel.org.uk/work/AIPShelpsheet.pdf">pdf</a>), originally written for students in the MSc room at Jodrell, undertaking the Radio Interferometry course and using AIPS for the first time.  It is intended as a memory aid, not a tutorial.  If you need more help, try the <a href="http://www.aips.nrao.edu/cook.html">AIPS cookbook over at NRAO</a>, or the old MERLIN User Guide (<a href="http://www.merlin.ac.uk/user_guide/">the MUG</a>) instead as it contains a lot of useful information, or you could work through Hans-Rainer Klockner's excellent <a href="http://www-astro.physics.ox.ac.uk/~hrk/AIPS_TUTORIAL/HRK_AIPS_1.html">AIPS tutorial</a>.
+</p>
+
+
+<!--#include virtual="/cgi-bin/emerlin_footer.pl?author=$author"-->
+

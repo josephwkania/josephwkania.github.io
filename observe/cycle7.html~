@@ -1,0 +1,496 @@
+<!--#set var="section" value="observe" -->
+<!--#set var="title" value="Observe" -->
+<!--#set var="author" value="Rob Beswick" -->
+<!--#set var="keywords" value="e-MERLIN,National Facility,telescope,VLBI" -->
+<!--#include virtual="/cgi-bin/emerlin_header.pl?section=$section&sub=$sub&title=$title&author=$author&keywords=$keywords&related=$related&javascript=$javascript"-->
+
+
+<h1>e-MERLIN Cycle-6 capabilities</h1>
+
+<h2>Summary</h2>
+<p>
+Selected e-MERLIN capabilities are available in cycle-6. 
+</p>
+<ul>
+<li> L-band, C-band and shared-risk K-band (1.3-1.75GHz, 4.5-7.5GHz, 21-24GHz).</li>
+<li> Resolution about 12 mas (K-band) 40 mas (C-band), 150 mas (L-band).</li>
+<li> Up to 0.512 GHz instantaneous bandwidth</li>
+<li> Continuum observations at both C and L-band will use, by default,
+the most sensitive and interference free parts of the band with
+expected 1&#963; rms noise 12 hr on-source of 6-7 &#956Jy/beam (at L and C-band) and with
+Lovell Telescope under good conditions. This corresponds to a 3&#963;
+sensitivity to brightness temperatures around 300 K.</li>
+<li>Full polarization for all observations</li>
+<li> Maximum spectral resolution 10<sup>7</sup> i.e. 0.03 km/s
+(C-band), 0.1 km/s (L-band).</li>
+</ul>
+<p>
+Note that when complete, e-MERLIN sensitivity and imaging fidelity at
+C-band will be improved by more than a factor of two by using the full
+2-GHz bandwidth.  K-band (around 1.2 cm wavelength) and a wider range
+of correlator configurations will be offered, see <a
+href="http://www.souk.ac.uk/tech/">The technical capabilities of
+e-MERLIN</a>
+</p>
+
+<h2>Sensitivity and imaging capability</h2> 
+<p>
+During Cycle-6 the optimum continuum sensitivity will be achieved in 12 hr 
+on-source, corresponding to about an 18 hr track including
+calibration, using the Lovell telescope, for targets with declination greater than 20deg.
+</p>
+<p>
+At C-band, continuum rms values of 7 &#956Jy/beam will be reached by placing the 0.512 GHz
+bandwidth in the most sensitive part of the band, with the
+current system (about 5.8-6.3 GHz), assuming minimal losses due to
+interference giving a useful bandwidth of 0.5 GHz. We will observe
+using four, adjacent 128-MHz spectral windows.
+</p>
+
+<p> At L-band, standard continuum observations will be made using eight  64-MHz spectral windows which will 
+be placed contiguously over 0.512 GHz to optimise continuum sensitivity and
+avoid interference. Typical RFI levels across L-band result in around 10-15% of the total 512MHz band being 
+unusable. Observational tests to date have typically actived sensitivities of 6-10 &#956Jy/beam.
+</p>
+
+<p>
+ We suggest that continuum observers with no precise frequency requirements just
+specify L-, C- or K-band, and the optimum range will be chosen at
+observing time.
+</p>
+
+<p>
+ Up to four additional spectral windows can be used
+in spectral line modes within the same 0.512 GHz band, see below.
+
+</p><p>
+The nominal Cycle-6 ranges for L- and C-bands are given in Table 1,
+but observing towards the edges of C-band at this stage will be
+subject to up to double the noise.  The Lovell Telescopes is a <a
+href="http://www.manchester.ac.uk"> University of Manchester</a>
+instrument and its inclusion is limited within e-MERLIN. For Cycle-6 PATT observations, the <a 
+href="http://www.manchester.ac.uk">
+University of Manchester</a> has donated up to 8 days of Lovell Telescope time. The
+e-MERLIN TAC will scientifically assess and allocated Lovell Telescope
+time to high ranking projects. Please include in your proposal justifications why the Lovell
+Telescope is needed for your project. The noise levels
+without Lovell are approximately twice those given for continuum
+without it.
+</p><p>
+We give 1&#963; rms noise levels.  We suggest that observers aim for
+at least 5&#963; sensitivity for detection experiments although
+3&#963; details are reliable around brighter sources.  Dynamic range
+limitations may affect bright sources (several Jy), especially in
+spectral line mode. 
+</p>
+<hr>
+<p><b>Table 1:</b> Cycle-6 continuum observing capabilities of e-MERLIN</p>
+<table class="pretty" cellpadding=8 border style="width: 100%;">
+
+<tr>
+	<th></th>
+	<th>1.5 GHz<br>(L-band)</th>
+
+	<th>5 GHz <br>(C-band)</th>
+	<th>22 GHz <br>(K-band)</th>
+
+	<th>Comments</th>
+</tr>
+<tr>
+	<td>Freq. Range (GHz)</td>
+	<td>1.23-1.74</td>
+	<td>4.3-7.5</td>
+	<td>21-24</td>
+	<td>C-band range eventually will be extended</td>
+</tr>
+
+
+<tr>
+	<td>Resolution (mas)</td>
+	<td>150</td>
+	<td>40</td>
+	<td>12</td>
+	<td>Uniform weighting at central frequency</td>
+</tr>
+<tr>
+	<td>Maximum angular scale (arcsec)<sup>1</sup></td>
+	<td>2.0</td>
+	<td>0.5</td>
+	<td>0.1</td>
+	<td>Natural weighting, good coverage.</td>
+</tr>
+<tr>
+	<td>Field of View (arcmin) 25-m dishes<sup>2</sup> </td>
+	<td>30</td>
+	<td>7</td>
+	<td>1.5</td>
+	<td>To primary beam FWHM.  </td>
+</tr>
+<tr>
+	<td>Field of View (arcmin) including Lovell<sup>2</sup></td>
+	<td>12</td>
+	<td>5</td>
+	<td>-</td>
+	<td>To primary beam FWHM.</td>
+</tr>
+
+<tr>
+	<td>Continuum sensitivity rms (&#956;Jy/bm) in 12 hr on-target, with Lovell</td>
+	<td>7</td>
+	<td>7</td>
+	<td>-</td>
+	<td rowspan="2">Good conditions, target above about Dec. 20 deg.</td>
+</tr>
+<tr>
+	<td>Continuum sensitivity rms (&#956;Jy/bm) in 12 hr on-target, no Lovell</td>
+	<td>14</td>
+	<td>13</td>
+	<td>~55</td>
+
+</tr>
+<tr>
+	<td>Astrometric performance (mas)</td>
+	<td>~2</td>
+	<td>~1</td>
+	<td>~1</td>
+	<td>WRT the ICRF (typical 3-deg target-calibrator separation
+	using VLBA Calibrator Survey)</td>
+	
+</tr>
+</table>
+<br/>
+<p><sup>1</sup>Observations shorter than about 6 hr  sources should be
+split up into a few shorter cuts to give good hour angle coverage.
+This will generally be a better use of instrumental time if several
+targets nearby on the sky can be interleaved.  However, the imaging
+fidelity for any but the most compact sources will not be as good as
+for a full track.</p>
+<p>
+<sup>2</sup>Exact field of view depends on frequency and also on
+integration time and channel width. For Cycle-6, for less than about
+10% smearing, the integration time of 1 sec limits the radius to about
+6 arcmin at C-band, 20 arcmin at L-band (greater than the primary beam
+FWHMs). The default channel widths of 0.25 MHz or 0.0625 MHz, at C-
+and L-bands, give radii of about 10 and 30 arcmin, respectively.
+</p>
+
+<h2>Spectral capabilities in Cycle-6</h2>
+<p>
+Cycle-6 will observe in C-band initially for several months and then
+change to L-band. It will not be possible to change between bands at
+short notice until later cycles. Up to 512 MHz can be observed
+instantaneously within one band. This can be located flexibly within
+C-band but there is a calibration overhead. We recommend that, if you
+need to observe in more than one 512-MHz range (e.g. for spectral lines
+around 4.8 and 6 GHz), you do this in separate tracks, or if the
+entire observation is to take place in a single track, frequency
+changes are made no more often than every couple of hours.
+</p>
+
+<p>
+The total bandwidth potentially available is 512 MHz (in future
+cycles, wider bandwidth will be available at C- and K-bands). The
+bandwidth is divided by factors of 2<sup>n</sup> into sub-bands. The
+data are recorded in spectral windows (spw) which can be the same width as the sub-band, or smaller by a factor of
+2<sup>n</sup>. Spw must not overlap sub-band edges. 
+</p>
+<ul>
+<li><b>C-band</b> 512 MHz divided into four 128-MHz sub-bands, each
+used for one spw.  Up to another four, narrower spw can be used at
+higher spectral resolution, placed within the 512 MHz. </li>
+
+<li><b>L-band</b> Nominally, 512 MHz is divided into 8 (64-MHz wide) sub-bands for continuum. Up to four 
+additional spws can be used
+at higher spectral resolution. Note that not all sub-bands may be
+usable due to RFI. The total available band remains under continued evaluation. </li> 
+
+<li><b>K-band</b> 512 MHz divided into four 128-MHz sub-bands, each
+used for one spw.  Up to another four, narrower spw can be used at
+higher spectral resolution, placed within the 512 MHz. </li></ul>
+
+
+<p>
+ The 512-MHz observing band can be placed anywhere in the available
+band, but once placed, the sub-band locations are fixed.
+More than one high-resolution spectral window can
+be placed in the same sub-band if wanted.  For maximum sensitivity,
+the spw should fit within factor-2 divisions of a sub-band. This is
+illustrated by some possible configurations shown in Figs. 1 and
+2.</p>
+<p>
+In Cycle-6, all spw will be divided into 512 channels, each in full polarization.</p>
+
+<h3>Spectral resolution</h3>
+
+<p>The actual spectral resolution may be broader if Hanning or other
+smoothing is applied. The sensitivities are given for the optimum part
+of the band and will be worse towards the band edges, in adverse
+weather, at low elevation or if interference is present. Bright
+emission in narrow channels will be more dynamic-range limited. About
+10% of edge channels within each band may have lower sensitivity if
+the spw are not optimally placed.
+</p>
+
+<hr>
+<p><b>Table 2:</b> C-band Cycle-6 spectral line configurations. 
+ </p>
+<table class="pretty" cellpadding=8 border style="width: 100%;">
+<tr><th colspan="2">spw width </th><th colspan="2"> Channel separation</th><th colspan="4"> 1&#963;<sub>rms</sub> 12 hr sensitivity per channel</th> </tr>
+<tr><th>(MHz)</th><th> (km/s) </th><th> (kHz) </th><th>(km/s) </th><th colspan="2"> with Lovell </th><th colspan="2"> no Lovell </th></tr>
+<tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>(mJy/bm)</th><th>(1000 K)</th><th>(mJy/bm)</th><th>(1000 K)</th></tr>
+<tr><td> 128</td><td>6400</td><td>  250</td><td>12.5 </td><td>0.25</td><td>3.8</td><td>0.47</td><td>7.0</td></tr>
+<tr><td>  64</td><td>3400</td><td>  125</td><td> 6.3 </td><td>0.35</td><td>5.3</td><td>0.66</td><td>9.9</td></tr>
+<tr><td>  32</td><td>1600</td><td>  62.5</td><td>3.1 </td><td>0.50</td><td>7.5</td><td>0.93</td><td> 14</td></tr>
+<tr><td>  16</td><td> 800</td><td> 31.25</td><td>1.6 </td><td>0.71</td><td>11 </td><td> 1.3</td><td> 20</td></tr>
+<tr><td>   8</td><td> 400</td><td>15.625</td><td>0.8 </td><td> 1.0</td><td>15 </td><td> 1.9</td><td> 28</td></tr>
+<tr><td>   4</td><td> 200</td><td>7.7125</td><td>0.4 </td><td> 1.4</td><td>21 </td><td> 2.6</td><td> 39</td></tr>
+<tr><td>   2</td><td> 100</td><td>3.9063</td><td>0.2 </td><td> 2.0</td><td>30 </td><td> 3.7</td><td> 56</td></tr>
+<tr><td>   1</td><td>  50</td><td>1.9531</td><td>0.1 </td><td> 2.8</td><td>43 </td><td> 5.3</td><td> 79</td></tr>
+<tr><td> 0.5</td><td>  25</td><td>0.9766</td><td>0.05</td><td> 4.0</td><td>60 </td><td> 7.4</td><td>112</td></tr>
+<tr><td>0.25</td><td>12.5</td><td>0.4882</td><td>0.03</td><td> 5.7</td><td>85 </td><td>  11</td><td>158</td></tr>
+</table>
+<br/>
+<hr>
+
+<p><b>Table 3:</b>
+L-band Cycle-6 spectral line configurations.
+
+</p>
+<table class="pretty" cellpadding=8 border style="width: 100%;">
+<tr><th colspan="2">spw width </th><th colspan="2"> Channel separation</th><th colspan="4"> 1&#963;<sub>rms</sub> 12 hr sensitivity per channel</th> </tr>
+<tr><th>(MHz)</th><th> (km/s) </th><th> (kHz) </th><th>(km/s) </th><th colspan="2"> with Lovell </th><th colspan="2"> no Lovell </th></tr>
+<tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>(mJy/bm)</th><th>(1000 K)</th><th>(mJy/bm)</th><th>(1000 K)</th></tr>
+
+<tr><td>  32</td><td>6760</td><td>  62.5</td><td>13.2</td><td>0.43</td><td>6.4</td><td>0.86</td><td> 13</td></tr>
+<tr><td>  16</td><td>3380</td><td> 31.25</td><td> 6.6</td><td>0.61</td><td>9.1</td><td> 1.2</td><td> 18</td></tr>
+<tr><td>   8</td><td>1690</td><td>15.625</td><td> 3.3</td><td>0.86</td><td> 13</td><td> 1.7</td><td> 26</td></tr>
+<tr><td>   4</td><td> 845</td><td>7.7125</td><td> 1.7</td><td> 1.2</td><td> 18</td><td> 2.4</td><td> 36</td></tr>
+<tr><td>   2</td><td> 423</td><td>3.9063</td><td> 0.8</td><td> 1.7</td><td> 26</td><td> 3.4</td><td> 52</td></tr>
+<tr><td>   1</td><td> 211</td><td>1.9531</td><td> 0.4</td><td> 2.4</td><td> 36</td><td> 4.9</td><td> 73</td></tr>
+<tr><td> 0.5</td><td> 106</td><td>0.9766</td><td> 0.2</td><td> 3.4</td><td> 52</td><td> 6.9</td><td>103</td></tr>
+<tr><td>0.25</td><td>52.8</td><td>0.4882</td><td> 0.1</td><td> 4.9</td><td> 73</td><td> 9.7</td><td>146</td></tr>
+</table>
+<br/>
+<hr>
+
+
+<h3>Line rest frequencies</h3>
+<p> e-MERLIN is suited for imaging thermal lines in absorption against
+a bright radio source, or maser lines.  These are the best-known
+transitions in the available bands. Those in brackets are probably faint.</p>
+<ul>
+<li>L-band</li>
+<ul>
+<li> HI 1420.406 MHz</li>
+<li>OH 1612.231 1665.359 1667.402 1720.530 MHz </li>
+</ul>
+<li>C-band</li>
+<ul>
+<li> OH 4650.656 (4660.242) 4765.562 MHz</li>
+<li>OH (6016.746) 6030.747 6035.092 6049.084 MHz</li>
+<li>H<sub>2</sub>CO 4829.641 - 4829.671 MHz</li>
+<li> CH<sub>3</sub>OH 6668.619 MHz</li>
+</ul>
+</ul>
+<p> Frequencies affected by interference include 1450-1520, 1310-1340 and around 1390 MHz. These frequencies are not always unusable (or others may be affected)
+ but please consult e-MERLIN staff if you want to observe red-shifted lines in these ranges. 
+</p>
+
+<h2> Proposal Technical Case</h2>
+
+<p> e-MERLIN is queue-scheduled and observing routines are prepared by
+staff. This means that sources will be observed at the positions and
+frequencies which you provide now.  Please make sure these are
+accurate as there may not be an opportunity to provide corrections.
+In exceptional cases (e.g. follow-up of a transient), if you have to
+give a position which is not better than an arcmin, or hope to provide
+a better position after the deadline, please indicate this.
+</p>
+<p> e-MERLIN staff will normally choose suitable calibration sources
+but if you have any preferences (e.g. the same phase reference as
+other observations) please indicate this.
+</p>
+<h3>Observing frequencies</h3>
+<p>
+Select the observing band. We recommend that you do not specify the
+precise frequency for pure continuum observations. The e-MERLIN
+observing team will pick
+the most sensitive range at C-band or avoid interference at L-band.
+If you do need a particular frequency for continuum, please explain
+why (e.g. for spectral index observations or to combine with other
+data).
+
+<ul><li><b>Frequency Flexibility:</b>During Cycle-6, both L-band, C-band and shared-risk K-band proposals will be
+accepted. However, due to commissioning commitments rapid cycling between L- and C-band will
+not be permitted. Moderately rapid frequency changes (no faster than one change every 2hrs)
+will be allowed within C-band (4.5-7.5GHz). However, proposers should note that such changes
+(e.g. between the ranges 4.5-5.0GHz and 6.5-7.0GHz) within a single observing run, whilst
+permitted will result in significant additional calibration overheads and are discouraged
+unless scientifically vital. 
+
+</li></p>
+<p>
+If you want to include up to 4 spw in narrower spectral
+configurations, please provide the following information for each spw:
+<ul>
+<li> Line rest frequency (see list below for some common lines). </li>
+<li> Source velocity.  This should be given in the LSR (Local Standard
+of Rest) reference frame, especially for higher resolution
+observations where the total spw is less than 100 km/s.  Heliocentric velocities
+can vary by tens km/s depending on the measurement date.
+For extra-Galactic sources, please specify
+whether this is the radio convention (preferred) or the optical
+convention. </li>
+<li> Total velocity width needed for the line in this spw.</li>
+<li> Whether continuum subtraction is required. This is needed if the
+continuum can be detected in individual spectral channels.</li>
+</ul>
+Please indicate if you want us to set up the spectral
+configuration.  This is recommended, but if you want to provide a
+specification, please discuss this.
+</p>
+<h3>Sensitivity</h3>
+
+<p> 
+Please give the following information. In the case of spectral lines,
+please give the flux densities for each line and for any (total
+bandwidth) continuum. 
+<ul>
+<li> Target peak (Jy per e-MERLIN beam)</li>
+<li>Faintest emission of interest (Jy per e-MERLIN beam)</li>
+<li> Desired resolution (this can be varied by a factor of about two
+be weighting during imaging, at the expense of sensitivity).</li>
+<li> Largest angular size of individual objects to be imaged </li>
+<li> Total angular extent of target </li>
+</ul>
+ <p>Estimate the approximate time needed to reach your sensitivity limit, stating whether this is including the
+Lovell telescope.    Projects not requiring the highest sensitivity
+(e.g. those which can be observed without the Lovell in less than a
+day) are unlikely to get the Lovell except in special cases.  The
+Lovell telescope will be available for up to 8 days in total during
+Cycle-6. This allocation is at the discretion of the University of
+Manchester and will be available to those projects making the
+strongest scientific justification for the inclusion of the Lovell Telescope.</p>
+
+<p>Targets
+will normally be observed for one or more complete runs, i.e. the time
+when they are above a few degrees elevation.  If you request a
+substantially shorter time, please explain why this is adequate for
+synthesis imaging (i.e. compactness of target).  If your source is at
+low Dec. (below about 20 deg.), additional time is needed and the N-S
+resolution will be poor.
+</p>
+
+<ul><li><b>Lovell Telescope:</b>During Cycle-6 proposers are invited to request the inclusion of
+the 76-m Lovell telescope. The inclusion of the Lovell Telescope approximately doubles the
+sensitivity of the array. The Lovell Telescopes is a  <a
+href="http://www.manchester.ac.uk"> University of Manchester</a> instrument and
+its inclusion is limited within e-MERLIN. For Cycle-6 PATT observations the
+<a href="http://www.manchester.ac.uk">
+University of Manchester</a> has donated up to 8 days of Lovell Telescope time. The e-MERLIN
+TAC will scientifically assess and allocated Lovell Telescope time to high ranking projects.
+Please include in your proposal justifications why the Lovell Telescope is needed for your
+project. </li></ul>
+
+
+<h3>Cycle-6 example spectral configurations</h3>
+
+<p>
+These examples show how to use the available spectral configurations
+to observe lines and continuum. Up to 4 spectral windows are available
+for high spectral resolution in Cycle-6.  The remaining spectral
+windows will normally be used for continuum. The sensitivity of
+e-MERLIN means that in many cases, target continuum will be detected
+but even if not, the same configuration will be used for all
+calibration sources to ensure phase stability.  The spectral windows
+are placed within factor 2 divisions of the sub-bands and in some
+cases overlap continuum spw. Note that this does not give additional
+sensitivity to the same emission.
+</p>
+
+<h4>Imaging OH masers around 6 GHz</h4>
+</p>
+<img src="cycle0/correlator_Cycle0_OH.png">
+<b> Fig 1:</b> <i>Example of placement of 4 tunable spectral windows (spw)
+aligned with specific spectral lines. Two spws of 2MHz width are
+centred on 6030.7MHz and 6049.1MHz, with the two remaining spw (1MHz
+wide) aligned on 6035.1MHz.</i>
+ 
+<p/>
+<p>
+The target lines are known to have a total velocity span of 40 km/s
+(above 20 mJy) per transition. They should be observed at at the best
+velocity resolution available in order to measure Zeeman
+splitting. The 6035-MHz line is known to be brightest, with a peak of
+about 1 Jy, the other lines are 100 mJy or fainter.  The continuum is
+likely to reach a few hundred &#956;Jy per MERLIN beam.
+</p>
+<p>
+The set-up adopted assumes that the observing frequency is close to the
+rest frequency. In practice the whole set-up can be moved to take
+account of the LSR motion and source V<sub>LSR</sub>. Since e-MERLIN
+observes at fixed frequency, a few channels (equivalent to a few km/s)
+at each end of each spectral line spw will be discarded due to the
+diurnal and other shifts during observations.
+</p>
+<p>
+
+Spw of 2 MHz provide a useful velocity width of up to 90
+km/s. In order to place each spw so that it falls within a division of
+a sub-band into a factor of 2, the scheme shown in Fig. 1 is used.
+The lines fall close to the centre of each spw, with at least +/- 30
+km/s available.
+2 MHz in 512 channels provides a channel separation of 3.9 kHz or 0.2
+km/s.  For the brightest line at 6035 MHz, two 1-GHz spw are used
+side-by-side, to allow a higher spectral resolution of 0.1 km/s.
+</p>
+<p>
+The four continuum spw of 128-MHz are placed so that their edges are
+consistent with the higher-resolution spw.
+</p>
+
+<h4>Imaging HI and OH at z = 0.09</h4>
+</p
+<img src="cycle0/correlator_Cycle0_HI.png">
+<img src="cycle0/correlator_Cycle0_HI.png">
+<b> Fig 1:</b> <i>Example of placement of 2 tunable spectral windows (spw)
+aligned with specific spectral lines at L-band. One spw of width 16MHz
+is centred on the redshifted HI line at 1303.1MHz, with a 32MHz wide
+continuum spw. The second spw is configured to have a width of 8MHz
+and is centred on the OH line (1665 and 1667MHz rest) at the same redshift.</i>
+<p/>
+
+<p>
+The target has HI absorption of up to 10 mJy per e-MERLIN beam at
+redshift ~0.09, span about 500 km/s, against continuum of up to 100
+mJy/beam. A spectral resolution better than 10 km/s is needed.  The
+observing frequency for the 21-cm HI line is about 1303.1 MHz.  A
+16-MHz spw in 512 channels will give about 7 km/s channel separation
+and a 3sigma sensitivity of 1.4 mJy/beam per channel in 24 hr on
+target with the Lovell. The total velocity span in this spw is ~3400
+km/s.  We centre this, slightly asymmetrically, on 1301 MHz, which
+still gives over 1300 km/s on the closer side of the HI line.
+</p>
+<p>
+This is to allow the OH 1665- and 1667-MHz lines to be fitted in
+optimally. At this redshift, they have observing frequencies of about
+1527.9 and 1529.7 MHz, respectively. A spw of 8 MHz centred at
+observing frequency 1529 MHz will give a velocity span of more than
+1500 km/s with a channel separation of 3 km/s, sensitivity 2 mJy/beam
+under the same conditions as the HI. The velocity width for each line
+is at least 500 km/s both above and below the central velocity.
+</p>
+<p>
+The remaining ten spw are used at the full 32-MHz width to provide
+continuum, including in the sub-bands also containing line spw, in
+order to provide a good image for absorption and continuum
+subtraction. The location of the sub-bands used might be
+modified to avoid interference.
+</p>
+
+<p/>
+<p/>
+</html>
+
+<!--#include virtual="/cgi-bin/emerlin_footer.pl?author=$author"-->
+

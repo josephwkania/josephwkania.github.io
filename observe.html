@@ -1,0 +1,836 @@
+<!DOCTYPE HTML>
+<!--
+	e-MERLIN Observe Page
+	N Wrigley 2019
+	Free for personal and commercial use under the CCA 3.0 license
+-->
+<html>
+	<head>
+		<title>Observing with e-MERLIN</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="/images/emerlinicon.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="right-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="#banner" id="logo"><img src="images/e-MERLIN_logo_small_icon.png" alt="" /></a></h1>
+								
+								<h1><a href="" id="logo">Observing with <i>e</i>-MERLIN</a></h1>
+							</header>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="news.html">News</a></li>
+
+								<li><a href="science.html">Science</a></li>
+								<li><a href="observe.html">Observe</a></li>
+								<li><a href="support.html">Support</a></li>
+								<li><a href="vlbi.html">VLBI</a></li>
+								<li>
+									<a href="#">Quick Links</a>
+									<ul>
+										<li><a href="propose.html" target="_blank">Proposal Tool</a></li>
+										<li><a href="calc.html" target="_blank">Sensitivity Calculator</a></li>
+										<li><a href="observe.html#tech">Capabilities</a></li>
+										<li><a href="index_old.html" target="_blank">old e-MERLIN website</a></li>
+										
+										
+
+										<li>
+											<a href="support.html">Data Reduction &hellip;</a>
+											<ul>
+												<li><a href="support.html#pipeline">e-MERLIN Pipeline Support</a></li>
+												<li><a href="https://github.com/e-merlin/eMERLIN_CASA_pipeline" target="_blank">Download e-MERLIN CASA Pipeline from Github</a></li>
+												<li><a href="support.html#aips">AIPS Pipeline</a></li>
+												
+			
+											</ul>
+										</li>	
+									</ul>
+								
+								
+								</li>
+							</ul>
+						</nav>
+
+
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style1">
+
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-8 col-12-mobile" id="content">
+								<article id="main">
+									<header><nav id="covid19">
+										<!--<h2>COVID-19 Update</h2>
+										<p>e-MERLIN is now fully operational following a pause in operations due to COVID-19 mitigation measures in the UK.-->
+										<!--<p>We are very pleased to announce that e-MERLIN operations have recommenced after the temporary pause in observations which commenced in March 2020 following the British government’s and University of Manchester’s guidelines to tackle the COVID-19 pandemic in the UK. </p>-->
+										<!--<p>As of July 2020, Legacy, Cycle-10 and other ongoing e-MERLIN programmes are now operating in a remote operational mode, with only essential engineering and maintenance visits being undertaken, and staff working from home.  Throughout, the safety of all of our staff remains our highest priority. Whilst these remote operations and other restrictions are in place observing efficiency and responsiveness may be somewhat reduced.
+ 
+As previously communicated we will be delaying the upcoming Cycle-11 proposal call and deadline, and extending the current active Cycle-10 observing period so that no projects are negatively affected. </p>
+										<!--<h2>COVID-19 Pandemic: Suspension of e-MERLIN observations</h2>
+										<p>Following the development of the COVID-19 epidemic and information from UK Government and Public Health England, The University of Manchester, who operate the e-MERLIN/VLBI National Facility on behalf of the STFC, has taken the decision to temporarily reduce activities at the Jodrell Bank Centre for Astrophysics. Hence since March 17th 2020, Jodrell Bank Observatory has been running at a minimum safe level that secures the safety of the telescopes and facilities, with all scientific observations having been suspended until further notice.</p>-->
+										
+<!--									Scientific support staff will continue to support the e-MERLIN/VLBI observing community, working remotely whenever possible to minimise observatory site occupancy.-->
+										<!--<p>These measures are under continual review and observations will recommence once it is deemed safe and appropriate to do so.-->
+
+<!--Jodrell Bank staff are committed to the worldwide effort to avoid the spread of the virus and are working in close cooperation with the other organisations that share the site.<!--  Announcements regarding parallel activities from these organisations can be found at:
+SKAO : <a href="https://www.skatelescope.org/news/ska-statement-covid-19/">https://www.skatelescope.org/news/ska-statement-covid-19/</a>
+Jodrell Bank Discovery Centre: <a href="https://www.jodrellbank.net">https://www.jodrellbank.net</a></p>-->
+										<h2><a href="#">Proposing an Observation</a></h2>
+										
+										<p>
+											e-MERLIN is open to observing proposals from the international astronomical community on the basis of scientific merit alone. There are several methods of submitting observing proposals.</p>
+										<h1>Cycle Based Proposal Submission</h1>
+											<p>
+											Proposals can be submitted prior to each observing <i>Cycle</i> (there are currently two 6 month Cycles per year) in an invitation period during which time
+											e-MERLIN invites the scientific community to submit experiments. Two main types of Cycle proposal options are available;
+											 <li><b>Regular</b>; for experiments that can be observed at predictable times during the Cycle and ;
+											<li><b>Targets of Opportunity (ToO)</b>
+											; for experiments that require triggering by the Principal Investigator (PI). </li><br>
+										Details regarding the size and structure of supporting proposal material uploaded to Cycle proposals are given in the explanatory notes on the e-MERLIN NorthStar proposal tool.
+                                                                        <p>
+                                                                           	Once a proposal is submitted it is competitively peer-reviewed by the e-MERLIN Time Allocation Group (TAG) under standard STFC rules.
+                                                                                If the proposal successfully wins time with e-MERLIN it will be graded and forwarded to our team of schedulers who will use the graded priority to construct an appropriate schedule for queueing.
+                                                                                You will not need to write a specific schedule yourself, although a member of the team may contact you to discuss any special requests. For example, amplitude and phase calibrators are determined by
+                                                                                schedulers, unless you specify otherwise.
+                                                                                e-MERLIN uses dynamic scheduling, meaning that the highest graded project does not necessarily mean it is the first observed, but rather it is optimised depending upon telescope availability.
+                                                                                If you require e-MERLIN to be used within the European VLBI network, then your proposal should be submitted to the <a href="http://proposal.jive.nl" target="_blank">EVN</a> instead, with a specific request to include the e-MERLIN array.
+                                                                                The data would be then correlated at the  <a href="http://www.jive.nl" target="_blank">Joint Institute for VLBI (JIVE)</a>.
+
+                                                                        </p>
+
+										<h1>Rapid Response Time Submission</h1>	
+											In addition to Regular and ToO Cycle Time proposals, and specifically for urgent time-critical observations (i.e. unforeseen transient events not envisaged during proposal invitation periods),
+											an additional route for proposing is now available via the <i> Rapid Response Time (RRT)</i>, designed to enhance e-MERLIN transient science.
+
+											Such RRT requests are subject to the same assessment procedures by the e-MERLIN Time Allocation Group (TAG) as Cycle proposals. These will be performed soon after the RRT submission. Please note that existing approved Cycle ToOs programmes triggering on the same target will take precedence over RRT in any direct clash.  
+RRT requests should be submitted by email to <a href="mailto:emerlin@jb.man.ac.uk?subject=RRT Request" span class="inline-flag"><b>emerlin@jb.man.ac.uk</b></span></a> with an attached scientific application with a length not exceeding two pages of text (including an abstract) outlining the science case together with the required urgency of the observations and cadence of the any follow-up runs. The text should have a minimum font size of 11. A third page may be included but only for any additional figures if required. 
+									
+									<br></p>
+										<h1>Director's Discretionary Time (DDT)</h1>
+										<p>	For other exceptional observations, the <i>Director's Discretionary Time</i> (DDT) is also an option, but these are reserved only for types of observation which do not fit within standard astronomical assessment criteria.
+											
+										</p>
+									</header>
+									
+									<h2>Observing Frequencies</h2>
+
+										<p>
+											The three radio-frequency bands available in all modes for observing are:</p>
+											<p></p>
+											<ul>
+											<li>L-Band (1.25 -1.75 GHz),</li>
+											<li>C-Band (4.3 - 7.5 GHz) and </li>
+											<li>K-Band (19 - 25 GHz).</li>
+										</ul>
+									<p>Proposals can include any of these bands and may also request inclusion of the 76 metre Lovell telescope (except at K-Band), 
+									although this requires a demonstration of its necessity due to its more limited availability.
+									<br></p>
+									<section>
+									<section id="tech">
+									<h2>e-MERLIN Imaging Mode</h2>
+									
+									<p></p><p>
+									This is the standard observing mode for e-MERLIN, and the most requested by observers around the world, correlated in real time at Jodrell Bank Observatory producing sub-arcsecond resolution images with micro-Jansky sensitivities. It is available in all three observing bands: L, C and K. Typical specifications for expected performance for a standard phase-referenced observation are listed in the following table. It assumes
+									a standard 7 minute target and 3 minute phase-calibrator cadence throughout the integration period, with typical fractions of flagged data due to sporadic <a href="#rfi">RFI</a> etc.
+									</p>
+
+									<table class="default" style="width: 100%;">
+									<tr>
+										<th  style="width: 20%;"></th>
+										<th  style="width: 15%;">L-Band<br>(1.5 GHz)</th>
+										<th  style="width: 15%;">C-Band<br>(5 GHz)</th>
+										<th  style="width: 15%;">K-Band<br>(22 GHz)</th>
+										<th  style="width: 35%;">Comments</th>
+									</tr>
+									<tr>
+										<td style="width: 20%;">Resolution (arcsec)</td>
+										<td style="width: 15%;">0.2"</td>
+										<td style="width: 15%;">0.05"</td>
+										<td style="width: 15%;">0.02"</td>
+										<td style="width: 35%;">Natural weighting at central frequency</td>
+	
+									</tr>
+									<tr>
+										<td>Field of View (arcmin)</td>
+										<td>30'</td>
+										<td>7'</td>
+										<td>2'</td>
+										<td><i>WITHOUT</i> the Lovell telescope</td>
+	
+									</tr>
+									<tr>
+										<td>Freq. Range (GHz)</td>
+										<td>1.25 - 1.75</td>
+										<td>4.3 - 7.5</td>
+										<td>19 - 25</td>
+										<td>Max bandwidth 512 MHz</td>
+	
+									</tr>
+									<tr>
+										<td>Sensitivity in 12-hour observation</td>
+										<td>24 &#956;Jy/b</td>
+										<td>16 &#956;Jy/b</td>
+										<td>~120 &#956;Jy/b</td>
+										<td>
+										Measured <i>WITHOUT</i> the Lovell Telescope</td>
+									</tr>
+									<tr>
+										<td>Sensitivity in 12-hour observation</td>
+										<td>12 &#956;Jy/b</td>
+										<td>10 &#956;Jy/b</td>
+										<td>- </td>
+										<td>
+										<i>WITH</i> the Lovell Telescope</td>
+									</tr>									
+	
+									<tr>
+										<td>Astrometric performance (milli-arcsec)</td>
+										<td>~2</td>
+										<td>~1</td>
+										<td>~2</td>
+										<td>With respect to the ICRF (typical 3-deg target-calibrator separation
+										using VLBA Calibrator Survey)</td>
+	
+									</tr>
+
+									</table>
+										
+		
+										<p>
+											Note that the inclusion of the 76 m diameter Lovell telescope approximately doubles the sensitivity of the array (except at K-Band),
+											however, due to its narrower beam-width, the field of view is approximately halved, depending on the weighting scheme adopted in imaging.
+										</p>
+										
+									</section>
+									<section>
+									<section id="correlator"
+										<header>
+											<h3>Continuum Correlator Settings</h3>
+										</header>
+										<p></p><p>
+											The default correlator set up is for optimal band coverage, dividing its 512 MHz of bandwidth
+											into narrow enough channels to minimise bandwidth smearing (<10%) at the edge of full field-of-view images. Similarly, correlation averaging time is
+											defaulted to 1 second to minimise time-smearing. Each band is divided into contiguous <i>spectral windows</i> (SPWs or sub-bands) within the correlator, with each spectral window divided into 512 equally spaced channels.
+											Hence, to maintain minimum smearing, L-Band is divided into 8 spectral windows, whereas C and K bands are divided into 4 spectral windows. </br>
+										</p>
+
+										<table class="default" style="width: 100%;">
+									<tr>
+										<th style="width: 15%;">Bandwidth (MHz)</th>
+										<th style="width: 20%;">Bits sample /corr</th>
+										<th style="width: 10%;">SPWs</th>
+										<th style="width: 10%;">SPW bandwidth (MHz)</th>
+										<th style="width: 15%;" >No. of Pols</th>
+										<th style="width: 15%;" >No. of Chans <br>(/pol, /spw)</th>
+										<th style="width: 10%;">Channel width (kHz)</th>
+										<th style="width: 10%;">FOV (arcmin)</th>
+									</tr>
+
+
+									</table>
+									
+
+									
+									
+
+									<table class="default" style="width: 100%;">
+									<tr>
+										<td>Continuum Mode (L-Band):</td>
+									</tr>
+									</table>
+									<table class="default" style="width: 100%;">
+									<tr>
+										<td style="width: 15%;">512</td>
+										<td style="width: 20%;">8/7</td>
+										<td style="width: 10%;">8</td>
+										<td style="width: 10%;">64</td>
+										<td style="width: 15%;">4</td>
+										<td style="width: 15%;">512</td>
+										<td style="width: 10%;">125</td>
+										<td style="width: 10%;">37.3</td>
+									</tr>
+									<tr>
+										<td style="width: 15%;">512</td>
+										<td style="width: 20%;">8/7</td>
+										<td style="width: 10%;">8</td>
+										<td style="width: 10%;">64</td>
+										<td style="width: 15%;">2</td>
+										<td style="width: 15%;">1024</td>
+										<td style="width: 10%;">62.5</td>
+										<td style="width: 10%;">74.6</td>
+									</tr>
+									</table>
+
+									<table class="default" style="width: 100%;">
+									<tr>
+										<td>Continuum Mode (C-Band, K-Band):</td>
+									</tr>
+									</table>
+									<table class="default" style="width: 100%;">
+									<tr>
+										<td style="width: 15%;">512</td>
+										<td style="width: 20%;">8/7</td>
+										<td style="width: 10%;">4</td>
+										<td style="width: 10%;">128</td>
+										<td style="width: 15%;">4</td>
+										<td style="width: 15%;">512</td>
+										<td style="width: 10%;">250</td>
+										<td style="width: 10%;">18.6</td>
+									</tr>
+									<tr>
+										<td style="width: 15%;">512</td>
+										<td style="width: 20%;">8/7</td>
+										<td style="width: 10%;">4</td>
+										<td style="width: 10%;">128</td>
+										<td style="width: 15%;">2</td>
+										<td style="width: 15%;">1024</td>
+										<td style="width: 10%;">125</td>
+										<td style="width: 10%;">37.3</td>
+									</tr>
+									</table>
+
+										</section>
+										<section>
+										<section id="spectral">
+										
+										<header><h3>Spectral-Line Correlator Settings</h3></header>
+										<p>
+											In addition to these continuum bands,
+											extra spectral windows can be placed within continuum spectral windows allowing high frequency resolution sub-bands to be overlaid, ideal for spectral-line observations.
+											Hence continuum observations can be observed simultaneously with spectral-line measurements.
+											</br>
+										</p>
+									
+									<a  class="image featured"><img src="images/SPWs.png" alt="" /></a>
+									
+									
+									
+									
+									<p>
+									The above figure illustrates 8 continuum spectral windows (SPWs), placed across L-band (1.25 - 1.75 GHz), with 5 additional high-frequency-resolution
+									spectral-line windows covering frequencies at which spectral lines are expected. These are particularly useful for observing MASER sources.
+									</p>
+									<p></p>
+									<p>
+									Spectral-line mode correlator capabilities are described in the table below, illustrating that
+									additional SPWs must be divided into continuum windows as an integer fraction of a power of 2.
+									The bandwidth is divided by factors of 2<sup>n</sup> into spectral-line windows which can be the same width as one of the continuum SPWs,
+									or smaller by a factor of 2<sup>n</sup>. However, spectral-line windows cannot overlap continuum SPW edges.
+									</p>
+									
+									<table class="default" style="width: 100%;">
+									<tr>
+										<th style="width: 15%;">Bandwidth (MHz)</th>
+										<th style="width: 20%;">Bits smpl/cor</th>
+										<th style="width: 10%;">No. of SPWs</th>
+										<th style="width: 10%;">SPW bandwidth (MHz)</th>
+										<th style="width: 15%;" >No. of Pols</th>
+										<th style="width: 15%;" >No. of Chans<br>(/pol, /spw)</th>
+										<th style="width: 10%;">Channel width (kHz)</th>
+										<th style="width: 10%;">FOV (arcmin)</th>
+									</tr>
+
+
+									</table>
+
+									
+									<table class="default" style="width: 100%;">
+									<tr>
+										<td>Spectral-line  modes (maximum no-recirculation, 4-bit correlation):</td>
+									</tr>
+									</table>
+									<table class="default" style="width: 100%;">
+									<tr>
+										<td style="width: 15%;">256</td>
+										<td style="width: 20%;">3/4</td>
+										<td style="width: 10%;">4</td>
+										<td style="width: 10%;">64</td>
+										<td style="width: 15%;">4</td>
+										<td style="width: 15%;">512</td>
+										<td style="width: 10%;">125</td>
+										<td style="width: 10%;">(2)</td>
+									</tr>
+									<tr>
+										<td style="width: 15%;">128</td>
+										<td style="width: 20%;">3/4</td>
+										<td style="width: 10%;">4</td>
+										<td style="width: 10%;">32</td>
+										<td style="width: 15%;">4</td>
+										<td style="width: 15%;">512</td>
+										<td style="width: 10%;">62.5</td>
+										<td style="width: 10%;"></td>
+									</tr>
+									<tr>
+										<td style="width: 15%;">&darr;</td>
+										<td style="width: 20%;">&darr;</td>
+										<td style="width: 10%;">&darr;</td>
+										<td style="width: 10%;">&darr;</td>
+										<td style="width: 15%;">&darr;</td>
+										<td style="width: 15%;">&darr;</td>
+										<td style="width: 10%;">&darr;</td>
+										<td style="width: 10%;"></td>
+									</tr>
+									<tr>
+										<td style="width: 15%;">2</td>
+										<td style="width: 20%;">3/4</td>
+										<td style="width: 10%;">4</td>
+										<td style="width: 10%;">0.5</td>
+										<td style="width: 15%;">4</td>
+										<td style="width: 15%;">512</td>
+										<td style="width: 10%;">0.976563</td>
+										<td style="width: 10%;"></td>
+									</tr>
+									<tr>
+										<td style="width: 15%;">1</td>
+										<td style="width: 20%;">3/4</td>
+										<td style="width: 10%;">4</td>
+										<td style="width: 10%;">0.25</td>
+										<td style="width: 15%;">4</td>
+										<td style="width: 15%;">512</td>
+										<td style="width: 10%;">0.488281</td>
+										<td style="width: 10%;"></td>
+									</tr>
+									</table>
+
+								<p>In most cases of Direct Correlator Imaging, it is normal to accept default correlator settings for continuum windows,
+									and then specify the positions of the spectral-line windows on-top of them.  You can simply specify the
+									lines required in your proposal and let the e-MERLIN scheduling team determine the appropriate placement
+									and any necessary Doppler VLSR correction as these depend on the exact time of observation.
+									
+								</p>
+								</section>
+								
+								<section>
+								<h3>Spectral-Line Rest Frequencies</h3>
+								<section id="lines"
+									<p>These are popular
+									transitions in the available bands (particularly faint lines are in brackets):</p>
+									<ul>
+										<h1>L-Band</h1>
+										<ul>
+											<li>HI 1420.406 MHz</li>
+											<li>OH 1612.231 1665.402 1667.359 1720.530 MHz </li>
+										</ul>
+											<h1>C-Band</h1>
+										<ul>
+											<li> OH 4650.656, (4660.242), 4765.562 MHz</li>
+											<li>OH (6016.746), 6030.747, 6035.092, 6049.084 MHz</li>
+											<li>H<sub>2</sub>CO 4829.641 - 4829.671 MHz</li>
+											<li> CH<sub>3</sub>OH 6668.619 MHz</li>
+										</ul>
+										<h1>K-Band</h1>
+										<ul>
+											<li>H<sub>2</sub>O 22.235 GHz</li>
+											<li>NH<sub>3</sub> 23.694, 23.723, 23.87 GHz </li>
+										</ul>
+									</ul>
+									<p> Frequencies affected by RF interference include 1450-1520, 1310-1340 and around 1390 MHz. These frequencies 
+									are not always unusable but please consult e-MERLIN support if you wish to observe red-shifted lines within these ranges.
+									</p>
+									
+									
+									<p>The actual spectral resolution may be broader if Hanning or other
+									smoothing is applied. The sensitivities below are given for the optimum central part
+									of the band and will degrade towards the band edges. Bright
+									emission in narrow channels will be more dynamic-range limited. About
+									10% of edge channels within each band may have lower sensitivity if
+									the SPWs are not placed optimally. 
+									</p>
+								
+									<h3>L-band Spectral Line Configurations</h3>
+
+									</p>
+									<table class="default" cellpadding=8 border style="width: 100%;">
+									<tr><th colspan="2">spw width </th><th colspan="2"> Channel separation</th><th colspan="4"> 1&#963;<sub>rms</sub> 12 hr sensitivity per channel</th> </tr>
+									<tr><th>(MHz)</th><th> (km/s) </th><th> (kHz) </th><th>(km/s) </th><th colspan="2"> with Lovell </th><th colspan="2"> no Lovell </th></tr>
+									<tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>(mJy/bm)</th><th>(1000 K)</th><th>(mJy/bm)</th><th>(1000 K)</th></tr>
+
+									<tr><td>  32</td><td>6760</td><td>  62.5</td><td>13.2</td><td>0.43</td><td>6.4</td><td>0.86</td><td> 13</td></tr>
+									<tr><td>  16</td><td>3380</td><td> 31.25</td><td> 6.6</td><td>0.61</td><td>9.1</td><td> 1.2</td><td> 18</td></tr>
+									<tr><td>   8</td><td>1690</td><td>15.625</td><td> 3.3</td><td>0.86</td><td> 13</td><td> 1.7</td><td> 26</td></tr>
+									<tr><td>   4</td><td> 845</td><td>7.7125</td><td> 1.7</td><td> 1.2</td><td> 18</td><td> 2.4</td><td> 36</td></tr>
+									<tr><td>   2</td><td> 423</td><td>3.9063</td><td> 0.8</td><td> 1.7</td><td> 26</td><td> 3.4</td><td> 52</td></tr>
+									<tr><td>   1</td><td> 211</td><td>1.9531</td><td> 0.4</td><td> 2.4</td><td> 36</td><td> 4.9</td><td> 73</td></tr>
+									<tr><td> 0.5</td><td> 106</td><td>0.9766</td><td> 0.2</td><td> 3.4</td><td> 52</td><td> 6.9</td><td>103</td></tr>
+									<tr><td>0.25</td><td>52.8</td><td>0.4882</td><td> 0.1</td><td> 4.9</td><td> 73</td><td> 9.7</td><td>146</td></tr>
+									</table>
+									<br/>
+								
+								
+								
+								
+								
+								
+								
+									
+								<h3>C-band Spectral Line Configurations </h3></p>
+								<table class="default" border style="width: 100%;">
+								<tr><th colspan="2">spw width </th><th colspan="2"> Channel separation</th><th colspan="4"> 1&#963;<sub>rms</sub> 12 hr sensitivity per channel</th> </tr>
+								<tr><th>(MHz)</th><th> (km/s) </th><th> (kHz) </th><th>(km/s) </th><th colspan="2"> with Lovell </th><th colspan="2"> no Lovell </th></tr>
+								<tr><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>(mJy/bm)</th><th>(1000 K)</th><th>(mJy/bm)</th><th>(1000 K)</th></tr>
+								<tr><td> 128</td><td>6400</td><td>  250</td><td>12.5 </td><td>0.25</td><td>3.8</td><td>0.47</td><td>7.0</td></tr>
+								<tr><td>  64</td><td>3400</td><td>  125</td><td> 6.3 </td><td>0.35</td><td>5.3</td><td>0.66</td><td>9.9</td></tr>
+								<tr><td>  32</td><td>1600</td><td>  62.5</td><td>3.1 </td><td>0.50</td><td>7.5</td><td>0.93</td><td> 14</td></tr>
+								<tr><td>  16</td><td> 800</td><td> 31.25</td><td>1.6 </td><td>0.71</td><td>11 </td><td> 1.3</td><td> 20</td></tr>
+								<tr><td>   8</td><td> 400</td><td>15.625</td><td>0.8 </td><td> 1.0</td><td>15 </td><td> 1.9</td><td> 28</td></tr>
+								<tr><td>   4</td><td> 200</td><td>7.7125</td><td>0.4 </td><td> 1.4</td><td>21 </td><td> 2.6</td><td> 39</td></tr>
+								<tr><td>   2</td><td> 100</td><td>3.9063</td><td>0.2 </td><td> 2.0</td><td>30 </td><td> 3.7</td><td> 56</td></tr>
+								<tr><td>   1</td><td>  50</td><td>1.9531</td><td>0.1 </td><td> 2.8</td><td>43 </td><td> 5.3</td><td> 79</td></tr>
+								<tr><td> 0.5</td><td>  25</td><td>0.9766</td><td>0.05</td><td> 4.0</td><td>60 </td><td> 7.4</td><td>112</td></tr>
+								<tr><td>0.25</td><td>12.5</td><td>0.4882</td><td>0.03</td><td> 5.7</td><td>85 </td><td>  11</td><td>158</td></tr>
+								</table>
+								<br/>
+								
+								<header><h3>Example of Spectral Line Window Placement</h3></header>
+								<p>
+								In the following example we wish to observe HI and OH absorption lines for a source placed at redshift z=0.09.
+								Suppose the target has HI absorption of up to 10 mJy per e-MERLIN beam at redshift ~0.09, and spans about 500 km/s,
+								against continuum of up to 100 mJy/beam. A spectral resolution better than 10 km/s is needed. The observing frequency
+								for the 21-cm HI line is about 1303.1 MHz. A 16-MHz SPW in 512 channels will give about 7 km/s channel separation and 
+								a 3-sigma sensitivity of 1.4 mJy/beam per channel in 24 hr on target with the Lovell. The total velocity span in this 
+								SPW is ~3400 km/s. We centre this, slightly asymmetrically, on 1301 MHz, which still gives over 1300 km/s on the
+								closer side of the HI line.
+								</p>
+								
+								<img src="images/spw_HI_OH.png">
+								
+								<p>
+								This is to allow the OH 1665- and 1667-MHz lines to be fitted in optimally. At this redshift, they have observing
+								frequencies of about 1527.9 and 1529.7 MHz, respectively. A spw of 8 MHz centred at observing frequency 1529 MHz
+								will give a velocity span of more than 1500 km/s with a channel separation of 3 km/s, sensitivity 2 mJy/beam under
+								the same conditions as the HI. The velocity width for each line is at least 500 km/s both above and below the central 
+								velocity.
+								</p>
+								
+								The remaining spectral
+								windows will normally be used for continuum.
+									
+								</section>
+								
+								
+								
+								
+								
+								
+								<section>
+								<section id="vdif">
+								<header>
+								<h2>VDIF Mode for VLBI & Pulsar Observations</h2>
+								</header>
+								<p></p>
+								<p>
+								For uncorrelated observations, the correlator is placed into 2-bit VDIF Mode in which it resamples the data into VDIF format
+								at the full temporal resolution of the samplers. This enables raw uncorrelated data to be stored for subsequent processing e.g.
+								later correlation or time-stream analysis. As well as using this mode for Pulsar observing, this is how e-MERLIN is used
+								within the European VLBI Network (EVN). All e-MERLIN telescopes can be used within the EVN simultaneously, either with data traditionally stored
+								on disk arrays at JBO, or streamed live with correlation at JIVE using wide-band fibre links.
+								</p>
+
+									<a  class="image featured" title="e-MERLIN participating in the European VLBI Network."><img src="images/e-MERLIN+EVN_large_logo.png" alt="" /></a>
+								<p></p>
+
+								</section>	
+									
+									
+								</article>
+
+							</div>
+							<div class="col-4 col-12-mobile" id="sidebar">
+								<hr class="first" />
+								<nav id="call">
+								<section>
+								<section id="call">
+									<header>
+										<!--<h1><a href="#banner" id="logo"><img src="images/e-MERLIN_blue_logo_small.png" alt="" /></a></h1>-->
+										<h2><a href="#">Cycle 17 Invitation Now Open</a></h2>
+										<!--<h2><a href="#">Cycle 16 Invitation Now Open</a></h2>-->
+										<!--<h2><a href="#">Cycle 15 Invitation Now Open</a></h2>-->
+										<!--<h2><a href="#">Cycle 13 Invitation Now Open</a></h2>-->
+										<!--Cycle 11 closed on November 5th--><!--<h2>Cycle 12 closed on May 13th</h2>-->
+										
+										<!--<h2>Cycle 16 closed on May 18</h2>-->
+										<!--<h2>Cycle 15 closed on November 3rd</h2>-->
+										<!--<h2><a href="#">Cycle 16 Invitation Opening Soon</a></h2>-->
+										
+										<!--<h2>Invitation Cycle Currently Closed</h2>-->
+										<!--Cycle 15 closed on November 3<sup>rd</sup>-->
+									</header>
+									
+									<p>
+										<!--The next invitation cycle for observing proposals will open in spring 2023.-->
+										with a proposal deadline at 13:59 UT on 2<sup>nd</sup> November 2023. </a>Details specific to Cycle 17 are available in the <a href="tools/e-MERLIN_Cycle_17_CfP.pdf" target="_blank" ><b>Cycle 17 proposal call PDF.</b> </a>
+										We request that proposers follow our <a href="tools/e-MERLIN_Anonymous_Guidelines.pdf" target="_blank" ><b>Dual-Anonymous Guidelines.</b></a>
+										Latex templates are available for providing <a href="tools/Science+Tech.tex" download><b>Science Justification</b> and <a href="tools/AdditionalInfo.tex" download><b>Additional Information.</b></a> 
+										Use the e-MERLIN proposal tool button below to submit your proposal.
+										<!--Due to the COVID-19 outbreak e-MERLIN is not currently accepting proposal submissions. The Cycle 11 proposal invitation has been postponed to allow time to observe the delayed Cycle 10 observations.-->
+										</br>Can't wait? For urgent unforeseen time-critical observations, a proposal may be submitted as a <a href="mailto:emerlin@jb.man.ac.uk?subject=RRT Request" span class="inline-flag"><b>Rapid Response Time (RRT) request by email</b></span></a>.    
+     										</br>For special requests the <a href="mailto:emerlin@jb.man.ac.uk?subject=DDT Request" span class="inline-flag"><b>Director's Discretionary Time (DDT)</b></span></a> route remains an option in exceptional circumstances.
+									</p>
+									<a href="propose.html" target="_blank" class="button">e-MERLIN Proposal Tool</a>
+									
+								</section>
+								<hr />
+								<section>
+									<header>
+										<h3><a>Writing a proposal</a></h3>
+									</header>
+									<p>
+										Proposals require both scientific and technical justification and are submitted using our online tool below.
+									</p>
+									<div class="row gtr-50">
+										<div class="col-4">
+											<a href="calc.html" target="_blank" class="image fit"><img src="images/uv_coverage_logo.png" alt="" /></a>
+										</div>
+										<div class="col-8">
+											<h4>Observation Calculator</h4>
+											<p>
+												An online observation tool in which hypothetical e-MERLIN sensitivities are calculated, with or without the Lovell telescope.
+											</p>
+											<a href="calc.html" target="_blank" class="button">e-MERLIN Sensitivity Calculator</a>
+										</div>
+										<div class="col-4">
+											<a href="propose.html" target="_blank" class="image fit"><img src="images/northstar.png" alt="" /></a>
+											<br>
+										</div>
+										<div class="col-8">
+										
+											<h4>e-MERLIN Proposal Tool</h4>
+											<p>
+												The proposal tool is where you can compose and store your observing proposals, including defining targets and text for both scientific and technical justification.
+											</p>
+											<a href="propose.html" target="_blank" class="button">e-MERLIN Proposal Tool</a>
+										</div>
+										
+										<div class="col-4">
+											<a href="http://www.evlbi.org/submission-process" target="_blank" class="image fit"><img src="images/evnlogoblack.png" alt="" /></a>
+										</div>
+										<div class="col-8">
+											<h4>e-MERLIN in the EVN</h4>
+											<p>
+												If you wish observe with e-MERLIN as part of the European VLBI Network, then a proposal to the EVN is required with a request to include e-MERLIN baselines.
+												The EVN Time Allocation Group examine such requests during EVN proposal calls.
+											</p>
+											<a href="http://www.evlbi.org/submission-process" target="_blank" class="button">Propose with the EVN</a>
+										</div>
+										</div>
+									</div>
+									<footer>
+										
+									</footer>
+								</section>
+							
+						</div>
+						<hr />
+						<section>
+						<section id="rfi"
+						<div class="row">
+
+							<article class="col-4 col-12-mobile special">
+								<a title="Regular RFI scanning provides a priori flagging information (Dr. M. D'Cruze)." class="image featured"><img src="images/rfi.jpg" alt="" /></a>
+								<header>
+									<h3><a>Radio Frequency Interference (RFI)</a></h3>
+								</header>
+								<p>
+									Radio telescopes co-exist with numerous sources of modern RFI, from mobile phones to satellite transmissions,
+									which our software attempts to remove. We have dedicated personnel who use sensitive monitoring equipment
+									 to ensure that all observations are as clean as possible. If you are proposing a spectral line observation and are 
+									 unsure of potential RFI impacts, then please feel free to contact our support team.
+								</p>
+							</article>
+							<article class="col-4 col-12-mobile special">
+								<a class="image featured"><img src="images/emerlinbeam.png" alt="" /></a>
+								<header>
+									<h3><a>Telescope Sensitivities</a></h3>
+								</header>
+								<p>
+									e-MERLIN is a heterogeneous array and hence telescopes differ naturally in performance and
+									sensitivity at different wavelengths. Our RF, Fibre-link, Receivers and Electrical Engineering Teams are experts at getting
+									the best from all e-MERLIN telescopes employing System Equivalent Flux Density (SEFD) monitoring and a programme of continual
+									improvement.
+								</p>
+							</article>
+							<article class="col-4 col-12-mobile special">
+								<a class="image featured"><img src="images/lovell_tower.jpg" alt="" /></a>
+								<header>
+									<h3><a>Telescope Availability</a></h3>
+								</header>
+								<p>
+									e-MERLIN operates an array of seven telescopes and requires that
+									most telescopes are observing for most of the time. Our dedicated engineering team use a carefully planned maintenance schedule
+									which is decided in concert with our schedulers to ensure an optimal observing strategy. For example, A-priority observations usually need the full array, whereas
+									B-priority observations may not require all telescopes for a successful observation. This is an example of dynamic scheduling.
+
+								</p>
+							</article>
+							
+						</div>
+						</section>
+					</div>
+
+				</div>
+
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							<!-- Contacts -->
+								<section class="col-4 col-12-mobile">
+									<header>
+										<h2 class="icon fa-envelope circled"><span class="label">Contacts</span></h2>
+									</header>
+									<ul class="divided">
+										<li>
+											<article class="post stub">
+											<h1 class="timestamp">e-MERLIN Support e-mail</h1>
+												<a href="mailto:emerlin.support@jb.man.ac.uk" span class="inline-flag">emerlin.support <span class="icon fa-at"> jb.man.ac.uk</span></a>
+
+						<h1 class="timestamp">Head of e-MERLIN Scientific Operations: Prof Rob Beswick</h1>
+												<!--<a href="mailto:" span class="inline-flag">rjbeswick <span class="icon fa-at"> souk.ac.uk</span></a>!-->											
+											</article>
+										</li>
+										<li>
+											<article class="post stub">
+											<h1 class="timestamp">Postal Address of Jodrell Bank Centre for Astrophysics</h1>
+												<span class="post stub" >e-MERLIN Suite, Alan Turing Building,<br> The University of Manchester. M13 9PL UK</span>
+		
+											</article>
+										</li>
+										<li>
+											<article class="post stub">
+											<h1 class="timestamp">Postal Address of e-MERLIN UK National Facility</h1>
+												<span class="post stub" >e-MERLIN & VLBI National Facility,<br> Jodrell Bank Observatory, Macclesfield, SK11 9DL UK</span>
+		
+											</article>
+										</li>
+
+									</ul>
+								</section>
+
+							<!-- Posts -->
+								<section class="col-4 col-12-mobile">
+									<header>
+										<h2 class="icon fa-file circled"><span class="label">Documents</span></h2>
+									</header>
+									<ul class="divided">
+										<li>
+											<article class="post stub">
+												<header>
+													<!-- <h3><a href="#">Director's Discretionary Time Requests</a></h3> -->
+													<h3><a href="mailto:emerlin@jb.man.ac.uk?subject=DDT Request" span class="inline-flag">Director's Discretionary Time Request</span></a>
+												</header>
+												<span class="timestamp">Submitting a request to e-MERLIN Director: Prof Simon Garrington</span>
+											</article>
+										</li>
+										<li>
+											<article class="post stub">
+												<header>
+													<h3><a href="news.html#newsletter">Subscribe to the e-MERLIN & VLBI mailing list</a></h3>
+												</header>
+												<span class="timestamp">by the e-MERLIN Team at Jodrell Bank</span>
+											</article>
+										</li>
+
+										<li>
+											<article class="post stub">
+												<header>
+													<h3><a href="tools/eMCP-2.pdf" target="_blank" >e-MERLIN CASA Pipeline Manual</a></h3>
+												</header>
+												<span class="timestamp">by Dr Javier Moldon</span>											
+
+
+											</article>
+										</li>
+									</ul>
+								</section>
+
+							<!-- Photos -->
+								<section class="col-4 col-12-mobile">
+									<header>
+										<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
+									</header>
+									<div class="row gtr-25">
+										<div class="col-6">
+											<a class="image fit"><img src="images/control_room_nov_1958.png" alt="" /></a>
+										</div>
+										<div class="col-6">
+											<a  class="image fit"><img src="images/control_room_dials.jpg" alt="" /></a>
+										</div>
+										<div class="col-6">
+											<a  class="image fit"><img src="images/map.png" alt="" /></a>
+										</div>
+										<div class="col-6">
+											<a  class="image fit"><img src="images/beer_mat_front_emerlin.png" alt="" /></a>
+										</div>
+
+									</div>
+								</section>
+
+						</div>
+						<br><br>
+
+											
+					
+						<div class="row">
+							<div class="col-12">
+								
+								
+								<!-- Contact -->
+									<section class="contact">
+										<header>
+											<h3><span class="inline-flag"><img src="images/STFC-Logo.png" alt="" /><img src="images/evnlogo.png" alt=""/><img src="images/logo-uom.png" alt=""/><img src="images/ORP_small_logo.png" alt=""/></span></h3>
+											<!--<h3><span class="inline-flag"><img src="images/STFC-Logo.png" alt="" /><img src="images/evnlogo.png" alt=""/><img src="images/logo-uom.png" alt=""/></span></h3>-->
+										</header>
+										<p></p>
+										<ul class="icons">
+											<li><a href="https://twitter.com/eMERLINarray" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="https://en-gb.facebook.com/JodrellBankObservatory/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="https://www.instagram.com/jodrellbank/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="mailto:emerlin@jb.man.ac.uk" class="icon fa-envelope"><span class="label">email</span></a></li>
+											
+										</ul>
+									</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; e-MERLIN. All rights reserved.</li><li></li>
+										</ul>
+									</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

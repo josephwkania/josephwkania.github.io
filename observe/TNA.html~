@@ -1,0 +1,79 @@
+<!--#set var="section" value="observe" -->
+<!--#set var="title" value="Observe" -->
+<!--#set var="author" value="Rob Beswick" -->
+<!--#set var="keywords" value="e-MERLIN,National Facility,telescope,VLBI" -->
+<!--#include virtual="/cgi-bin/emerlin_header.pl?section=$section&sub=$sub&title=$title&author=$author&keywords=$keywords&related=$related&javascript=$javascript"-->
+
+<center><h1><i>e</i>-MERLIN/VLBI National Facility</h1>
+<h1>Trans-National access to <i>e</i>-MERLIN</h1></center>
+
+
+
+<p>         Access to <i>e</i>-MERLIN for Scientists from EU Countries:
+         <i>e</i>-MERLIN is one of the participating institutes in the RadioNet project
+         from which transnational access (TNA) within the EU to existing
+        observing facilities is financially supported. TNA support
+        envisaged for the RadioNet3 provision from January 1st 2012
+        includes travel reimbursement for data reduction visits
+        to the <i>e</i>-MERLIN support facility in JBCA Manchester for
+        TNA-enabled programmes.</p>
+
+<p>The members of the research team from eligible projects may also receive travel 
+subsidies through the EC's RadioNet trans-national access (TNA) program. In the
+specific case of the e-MERLIN, "eligible" means in brief that:
+
+<ul>
+<li>The PI is from an institute in a country of the EU or Associated States, with the 
+exception of the UK. </li>
+
+<li>The same criterion, but applied collectively to 50% or
+more of the individual members of the research team.</li>
+
+<li>The research team is defined by the co-authors listed on the observing proposal, and 
+the association of researcher with institute remains fixed at that shown on the
+proposal.</li>
+</ul>
+</p>
+<h1>Requested TNA Acknowledgment</h1>
+
+<p>If you have a MERLIN or e-MERLIN project that is eligible for support via the RadioNet TNA program, would you 
+please include the appropriate acknowledgment in papers, conference proceedigs, etc. that result from the 
+project:</p>
+
+<p>Projects having observations in the time span 2004-2008:
+
+  <ul><li>  This work has benefited from research funding from the European Commission Sixth
+Framework Programme under RadioNet R113CT 2003 5058187.</li></ul></p>
+
+<p>Projects having observations in the time span 2009-2011:
+
+    <ul><li>This work has been supported by the European Commission Framework Programme 7,
+Advanced Radio Astronomy in Europe, grant agreement No. 227290.</li></ul></p>
+
+<p>Projects having observations in the time span 2012-2015:
+
+   <ul><li> The research leading to these results has received funding from the European
+Commission Seventh Framework Programme (FP/2007-2013) under grant agreement No. 283393
+(RadioNet3).</li></ul></p>
+
+
+<p> For further information or enquires regarding claims or eligibility please contact e-merlin@jb.man.ac.uk</p>
+
+<hr>
+     <center>         <i>e</i>-MERLIN/VLBI National Facility, The University of Manchester,<br>
+                             Jodrell Bank Observatory,<br>
+                                   Macclesfield,<br>
+                                   Cheshire SK11 9DL,<br>
+                             United Kingdom<br>
+<br />
+                        Telephone: +44 (0)1477 571321,<br>
+                        Facsimile: +44 (0)1477 571618,<br>
+                        Email:emerlin@jb.man.ac.uk <br>
+</center>
+
+
+
+
+
+<!--#include virtual="/cgi-bin/emerlin_footer.pl?author=$author"-->
+
