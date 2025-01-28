@@ -1,0 +1,381 @@
+/*
+** e-MERLIN CSS style
+** Version 1.0
+**
+** Last updated 2009/05/27 by Stuart Lowe
+*/
+
+body {
+	background-color: white!important;
+	font-family:Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+	padding: 0px;
+	margin: 0px;
+}
+body.fullwidth #main {
+	margin: 1em 0px 0px 0px;
+	padding: 0px;
+	float:left;
+}
+body.front #main { margin-top: 0em; }
+body.fullwidth #tabbedbar { margin-bottom: 1em; }
+body.front #tabbedbar { width: 900px!important; }
+
+
+/*
+** General HTML tags for paragraphs, images, headings etc
+*/
+p { text-align: justify; }
+p.hidden { display:none; }
+img { border: 0px; }
+h1,.inst {
+	font-weight: bolder;
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+body.front h1 { color: #396bad; }
+a { color: #396bad; }
+a:hover { color:#009999; }
+blockquote { font-style: italic; }
+ul { margin-left: 0; padding-left: 2em; }
+li { margin: 0; padding: 0; }
+
+p.date { font-weight: bold; }
+.hide { display: none; }
+
+
+/* Colours */
+.bggrey { background-color: #e0e0e0; }
+.bgwhite { background-color: #fff; }
+
+
+
+/* Skip links */
+.nav-skiplinks { position: absolute; top: 0; left: 0; }
+.nav-skiplinks a, 
+.nav-skiplinks a:hover, 
+.nav-skiplinks a:visited { position: absolute; top: -500px; left: 0px; width: 1px; height: 1px; overflow: hidden; }
+.nav-skiplinks a:active { position: absolute; top: 0; left: 220px; border: 1px dashed #cccccc; background-color: #f5f5f5; color: inherit; width: auto; height: auto; } 
+.nav-skiplink-target { width: 1px; height: 1px; }
+
+
+
+/* Main header containing top of logo and quick nav tools */
+#header { z-index: 5; position: absolute; top: 0px; right:0px; height: 52px; margin: auto; }
+label.hidden { display:none; }
+/* Toolbar */
+/* Known issues : IE5 doesn't position right correctly */
+#toolbar { border: none; margin: 0; padding: 0; height: 3em; width: auto; overflow: hidden; top: 0; float: right; }
+#toolbar p { background-color: #f5f5f5; color: inherit; display: inline; float: left; margin: 0; padding: 0.8em 0.8em 1em 1em; }
+#toolbar p.universityhome { background-color: #ffffff; color: inherit; font-size: 1em; padding-right: 1em; }
+#toolbar p a { padding: 1em 0 0 0; text-decoration: underline; font-size:0.8em; }
+#toolbar input, 
+#toolbar select { font-size: 0.9em; }
+
+
+#contentandsides {
+	max-width: 900px;
+	margin: auto;
+}
+
+#contentandsides h1,.inst {
+	margin: 0px 0px 10px 0px;
+}
+
+#contentandsides h1 a, .inst a {
+	font-weight: bold;
+	font-size: 0.9em;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#logo { margin-top: 1em; font-size: 20px; font-weight: bold; color: #000085; margin-bottom: 0.5em; text-align: 
+center;padding:0px;}
+#logo img.emerlin { float: left; margin-bottom: -4px;margin-right: 10px; width:143px; height:42px; }
+#title { margin-top:-0px; font-size :20px;font-weight: bold; color: #000085; text-align: center;padding-top:20px;}
+#logoevn { float: right;width:57px;height:42px;}
+
+/*
+** Tabbed navigation - copied from main university site 10/10/2005
+*/
+#tabbedbar { width: 100%; display: block; margin-bottom: 12px; height: 2em; margin-top: 0.5em; }
+#tabbedbar div.tab {
+	float: left;
+	font-size: 12px;
+	position: relative;
+	width: 100%;
+	min-width:100%;
+	right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 5px solid #396bad;
+}
+html>body #tabbedbar div.tab { 
+	padding-left: 0; /* Opera fix */
+}
+#tabbedbar div.tab ul {
+	float: left;
+	margin: 0px 0px;
+	padding: 0px;
+	list-style: none;
+}
+#tabbedbar div.tab ul li {
+	display: inline;
+	float: left;
+	margin: 0px;
+	margin-right: 1px;
+	padding: 0px;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 0.95em;
+	font-weight: bold;
+}
+#tabbedbar div.tab ul li a, 
+#tabbedbar div.tab ul li span {
+	float: left;
+	display: block;
+	margin: 0px;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+}
+/* Commented Backslash Hack
+     hides rule from IE5-Mac \*/
+#tabbedbar div.tab ul li a, 
+#tabbedbar div.tab ul li span {
+	float: none;
+}
+ /* End IE5-Mac hack */
+#tabbedbar div.tab ul li {
+	background: url("/medialibrary/images/tabcorners_02.gif") no-repeat right top;
+}
+#tabbedbar div.tab ul li a {
+	background: url("/medialibrary/images/tabcorners_01.gif") no-repeat left top;
+}
+#tabbedbar div.tab ul li span {
+	background: url("/medialibrary/images/tabcornersselected_02.gif") no-repeat top right;
+	border: none;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+#tabbedbar div.tab ul li span a {
+	background: url("/medialibrary/images/tabcornersselected_01.gif") no-repeat top left;
+	border: none;
+	color: #ffffff;
+	margin: 0;
+}
+#tabbedbar div.tab ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Horizontal bar */
+#tabbedbar div.bar,
+#tabbedbar div.bar ul {
+	background-color: #396bad;
+}
+#tabbedbar div.bar {
+	position: relative;
+	float: left;
+	width: 100%;
+	right: 0px!important;
+	border-bottom: 5px solid #396bad;
+}
+#tabbedbar div.bar ul  {
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	font-size: 0.85em;
+	border-left:1px solid black;
+}
+#tabbedbar div.bar ul li {
+	display: inline;
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	list-style: none;
+	margin: 0;
+}
+#tabbedbar div.bar ul li a {
+	border-right: 1px solid #cccccc;
+	color: #ffffff;
+	display: block;
+	height: 15px;
+	float: left;
+	margin: 0;
+	padding: 5px 5px 5px 7px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none;
+}
+#tabbedbar div.bar ul li span {
+	border-right: 1px solid #cccccc;
+	background-color: #009999;
+	color: #ffffff;
+	height: 15px;
+	float: left;
+	margin: 0;
+	padding: 5px 5px 5px 7px;
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none;
+}
+#tabbedbar div.bar ul li span a {
+	border: none;
+	background-color: #009999;
+	height: 15px;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#tabbedbar div.bar ul li a:hover {
+	color: #ffcc00;
+	text-decoration: underline;
+}	
+#tabbedbar div.tab ul,
+#tabbedbar div.bar ul {
+	/* width: 900px; a width is required for Opera, older Mozilla browsers, and Konqueror browsers */
+	right: 0px;
+}
+
+
+
+/* Main page styling */
+#middle {
+	float:left;
+	width: 100%;
+	margin-top:10px;
+}
+#middle div.left {
+	margin:auto;
+	padding-right:300px;
+}
+#right {
+	float: right;
+	width: 30%;
+	margin-top:1px;
+	background-color: #eee;
+}
+#right img { width: 290px; }
+#right p { margin: 0px; padding:10px; text-align: left; }
+#right address { margin: 0px; padding:10px; }
+
+
+/*
+** Define the left-hand menu bar
+*/
+#left { width: 185px; float:left; margin-top:0px; font-size: 0.85em; }
+#left h2 {
+	background-color: #396bad;
+	background: url("/medialibrary/images/tabcornersselected_02.gif") no-repeat top right;
+	border:0px;
+	font-size: 1.0em;
+	font-weight:normal;
+	color: #ffffff;
+	padding: 0.2em 5px;
+	margin:0px;
+}
+#left h2.related, #left h2.social {
+	margin-top:1em;
+	background-color: silver;
+	background: url("/medialibrary/images/relatedlinkscorners_02.gif") no-repeat top right;
+}
+
+#left h2 a {
+	color: #ffffff;
+}
+#left ul { padding: 0px; margin: 0px; list-style-type:none; }
+#left li {
+	margin: 0px;
+	padding: 0px;
+	display:block;
+	border-bottom: 1px solid #cccccc;
+	font-weight: bolder;
+	color: #396bad;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+}
+#left a {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	font-weight: normal;
+}
+#left ul li a { background: url(/medialibrary/images/leftmenubullet.gif); background-repeat: no-repeat; }
+#left ul li a.self { border-right: 4px solid #999; font-weight: bold; }
+#left ul.sub { border-top:  1px solid #ccc; }
+#left ul.sub li { border-left:0px; border-right:0px; }
+#left ul.sub li:last-child { border-bottom: 0px; }
+#left ul.subsub { border-top:  1px solid #ccc; }
+#left ul.subsub li { border-left:0px; border-right:0px; }
+#left ul.subsub li { border-bottom:0px; }
+/* #left .down a { background: url(/medialibrary/images/leftmenubullet_down.gif); } */
+#left ul li a {
+	padding-left: 18px;
+	background-position: 0px 0.5em;
+	background-color: #e9e9e9;
+}
+#left ul.sub li a {
+	padding-left: 25px;
+	background-position: 7px 0.5em;
+	background-color: #f9f9f9;
+}
+#left ul.subsub li a {
+	padding-left: 32px;
+	background-position: 14px 0.5em;
+	background-color: #fefefe;
+}
+#left ul li a:hover {
+	background-color: #dddddd;
+}
+
+#main {
+	margin-left: 195px;
+	margin-right: 10px;
+	padding: 0px;
+}
+#main p {
+	padding:0px;
+	margin: 0px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+#main h2 { font-size: 1.4em; margin-top:1em; margin-bottom:5px;}
+#main h3 { font-size: 1.3em; }
+#main h4 { font-size: 1.2em; }
+
+.splashimage { float:right; margin: 0em 0em 1em 1em; padding:0px; }
+
+
+/*
+** Footer styles
+*/
+#footer { width:100%; clear:both; color: #999999; padding-top:5px; border-top: 1px solid #999;}
+#footer .update {
+	clear:both;
+	float:left;
+	font-size: 0.8em;
+	color: #999999;
+}
+#footer .contact {
+	float:right;
+	font-size: 0.8em;
+	margin: 0px 0px 3em 0px;
+	text-align: right;
+}
+
+
+.newsflash { background-color: #ffcccc; padding:0.5em; margin-bottom: 0.5em; font-weight: bold;}
+
+
+.vcard {
+	margin-top: 1em;
+}
+
+
+.searchresults dd { margin: 0px; }
+.searchresults dd.url { font-size: 0.9em; color:green; margin-bottom: 10px; }
+

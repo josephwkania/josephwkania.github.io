@@ -1,0 +1,3 @@
+to eadit headers/side-bars/footers see
+
+/home/spider/cgi-bin/emerlin_header.html  etc

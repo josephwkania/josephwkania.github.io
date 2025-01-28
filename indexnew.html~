@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<!--
+
+	Based on work of N Wrigley 2019 using:
+	
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html><html lang=”en”>
+	<head>
+		<title>SO:UK</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+<!--	
+
+                <link rel="icon" href="/images/soukicon.png">
+-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="#banner" id="SOUK logo"><img src="SOlogo.webp" alt="SO:UK logo" width=500px /></a></h1>
+								
+
+								<h1>Simons Observatory UK</h1>
+								
+								<br>
+							</header>
+							<footer>
+
+							</footer>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="news.html">News</a></li>
+								<li><a href="science.html">Science</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<h2>The Simons Observatory is an international project, led by the US, supported by the Simons Foundation and the Heising-Simons Foundation, and includes 85 institutes from 13 countries.</h2>
+						<p>
+							Six universities are delivering the major new UK contribution - SO:UK - 
+    Cambridge,
+    Cardiff,
+    Imperial College London,
+    Manchester,
+    Oxford and
+    Sussex.
+
+
+						</p>
+					</header>
+				</section>
+
+			<!-- Main -->
+				<div class="wrapper style2">
+
+					<article id="main" class="container special">
+						
+						<header>
+							
+							<p>
+							With £18 million funding from UK Research and Innovation (UKRI), through the UKRI Infrastructure Fund, the UK will be leading on 2 additional telescopes, providing a major increase in the sensitivity of the facility. Under the funding, the UK will also be providing  expertise in data processing and analysis.<br>
+							</p>
+						</header>
+						
+
+					</article>
+
+				</div>
+
+
+			<!-- Features -->
+				<div class="wrapper style1">
+
+					<section id="features" class="container special">
+					
+						<header>
+							<h2>Telescopes</h2>
+							<p>Details of SO Telescopes 
+							</p>
+
+
+						</header>
+						<div class="row">
+							<article class="col-4 col-12-mobile special">
+								<a  class="image featured"><img src="images/eMERLINmap2.png" alt="" /></a>
+								<header>
+									<h3><a href="observe.html#tech">SO:UK</a></h3>
+								</header>
+								<p>
+									This is the most frequently used mode by observers providing deep high-resolution imaging. SO:UK observations are correlated at Jodrell Bank, in real time, using aperture synthesis techniques. Telescopes spread over 217 km, combined with 512 MHz instantaneous bandwidth, yield overlapping spatial-scale coverage in a single earth-rotation. 
+								</p>
+									<a  class="image featured" title="An active galaxy over 9 billion ly away rendered at 300 milli-arcsec resolution. (T. Muxlow)"><img src="images/iu.jpg" alt="" /></a>
+								<p>
+								 This coverage delivers images with angular resolutions up to 50 milli-arcseconds at micro-Jansky sensitivities. On top of these continuum observations, the SO:UK correlator can simultaneously observe narrow spectral windows with very-high frequency resolution, ideal for spectral line observations.
+								</p>
+							</article>
+							<article class="col-4 col-12-mobile special">
+								<a href="observe.html#vdif" class="image featured"><img src="images/SO:UK+EVN_logo_small_icon.png" alt="" /></a>
+								<header>
+									<h3><a href="observe.html#vdif">SO:UK + EVN VLBI Mode</a></h3>
+								</header>
+								<p>
+									When used within the <a href="http://www.evlbi.org" target="_blank">European VLBI Network</a>, SO:UK generates EVN compatible VDIF data which are delivered to <a href="http://www.jive.nl" target="_blank">JIVE</a> for correlation. Images produced with SO:UK + EVN deliver micro-arcsecond angular resolution without sacrificing the larger scales. Both traditional VLBI (observe now, correlate later) and fibre-linked
+									'e-VLBI' (real-time correlation) modes are available. 
+								</p>
+								
+									<a  class="image featured" title="Live fringes from SO:UK within e-EVN, correlated at JIVE. (E. Varenius)"><img src="images/evn_fringe.png" alt="" /></a>
+								
+
+
+							</article>
+							<article class="col-4 col-12-mobile special">
+								<a  class="image featured"><img src="images/phased_array.jpg" alt="" /></a>
+								<header>
+									<h3><a href="observe.html#vdif">Fast Transient Mode (LoFT-e)</a></h3>
+								</header>
+								<p>
+									SO:UK can be used to produce exceptional sensitivity and time resolution combinations. This is ideal for FRB searches, low luminosity <a href="http://www.jodrellbank.manchester.ac.uk/research/research-groups/pulsars-and-time-domain-astrophysics/" target="_blank">pulsar</a> observing or even the Search for Extra Terrestrial Intelligence <a href="http://seti.org" target="_blank">(SETI)</a>. Localisation of Fast Transients using SO:UK (LoFT-e) allows a unique combination of both timing and source location solutions.
+								</p>
+								
+
+							</article>
+
+						</div>
+
+					</section>
+
+				</div>
+
+
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+
+							<!-- Contacts -->
+								<section class="col-4 col-12-mobile">
+									<header>
+										<h2 class="icon fa-envelope circled"><span class="label">Contacts</span></h2>
+									</header>
+									<ul class="divided">
+										<li>
+											<article class="post stub">
+											<h1 class="timestamp">SO:UK Contact e-mail</h1>
+												
+
+						<h1 class="timestamp">Head of SO:UK Prof Michael Brown</h1>
+																					
+											</article>
+										</li>
+										<li>
+											<article class="post stub">
+											<h1 class="timestamp">Postal Address of Jodrell Bank Centre for Astrophysics</h1>
+												<span class="post stub" >SO:UK Suite, Alan Turing Building,<br> The University of Manchester. M13 9PL UK</span>
+		
+											</article>
+										</li>
+
+									</ul>
+								</section>
+
+							<!-- Posts -->
+								<section class="col-4 col-12-mobile">
+									<header>
+										<h2 class="icon fa-file circled"><span class="label">Documents</span></h2>
+									</header>
+									<ul class="divided">
+										<li>
+											<article class="post stub">
+												<header>
+													<h3>Dcumentation</h3>
+												</header>
+												<span class="timestamp">Online SO Documentation</span>
+											</article>
+										</li>
+										<li>
+											<article class="post stub">
+												<header>
+													<h3><a href="https://simonsobservatory.org/"">Simons Observatory Website</a></h3>
+												</header>
+												<span class="timestamp">Main Simons Observatory website</span>
+											</article>
+										</li>
+
+										<li>
+											<article class="post stub">
+												<header>
+													<h3><a href="https://so-uk.wikidot.com/" target="_blank" >SO:UK Wiki Site</a></h3>
+												</header>
+												<span class="timestamp">SO:UK Project Wiki</span>											
+
+
+											</article>
+										</li>
+									</ul>
+								</section>
+
+							<!-- Photos -->
+								<section class="col-4 col-12-mobile">
+									<header>
+										<h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
+									</header>
+									<div class="row gtr-25">
+										<div class="col-6">
+											<a class="image fit"><img src="images/control_room_nov_1958.png" alt="" /></a>
+										</div>
+										<div class="col-6">
+											<a  class="image fit"><img src="images/control_room_dials.jpg" alt="" /></a>
+										</div>
+										<div class="col-6">
+											<a  class="image fit"><img src="images/map.png" alt="" /></a>
+										</div>
+										<div class="col-6">
+											<a  class="image fit"><img src="images/beer_mat_front_emerlin.png" alt="" /></a>
+										</div>
+
+									</div>
+								</section>
+
+						</div>
+						<br><br>
+
+											
+					
+						<div class="row">
+							<div class="col-12">
+								
+								
+								<!-- Contact -->
+									<section class="contact">
+										<header>
+											<h3><span class="inline-flag"><img src="images/STFC-Logo.png" alt="" /><img src="images/logo-uom.png" alt=""/></span></h3>
+										</header>
+										<p></p>
+										<ul class="icons">
+											<li><a href="https://twitter.com/eMERLINarray" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+											<li><a href="https://en-gb.facebook.com/JodrellBankObservatory/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+											<li><a href="https://www.instagram.com/jodrellbank/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+											<li><a href="mailto:emerlin@jb.man.ac.uk" class="icon fa-envelope"><span class="label">email</span></a></li>
+											
+										</ul>
+									</section>
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; SO:UK. All rights reserved.</li><li></li>
+										</ul>
+									</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

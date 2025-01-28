@@ -1,0 +1,55 @@
+<!--#set var="section" value="observe" -->
+<!--#set var="title" value="Observe" -->
+<!--#set var="author" value="Rob Beswick" -->
+<!--#set var="keywords" value="e-MERLIN,National Facility,telescope,VLBI" -->
+<!--#include virtual="/cgi-bin/emerlin_header.pl?section=$section&sub=$sub&title=$title&author=$author&keywords=$keywords&related=$related&javascript=$javascript"-->
+
+<h1>Observe</h1>
+
+<p>Like MERLIN, e-MERLIN is a common user instrument and open to proposals 
+from the entire worldwide astronomical community. Proposals are 
+competitively peer-reviewed under standard <a 
+href="http://stfc.ac.uk">STFC</a> rules by the <a 
+href="http://www.scitech.ac.uk/SciProg/Ast/AstDocs/PATT.aspx">PATT</a> 
+e-MERLIN Time allocation Committee. During the first 5 semesters of 
+e-MERLIN operations ~50% of observing time has been allocated to 11 large 
+<a href="../legacy/">legacy projects</a>, the remaining time will be 
+allocated via <a 
+href="http://www.scitech.ac.uk/SciProg/Ast/AstDocs/PATT.aspx">PATT</a> to 
+standard proposals solicited prior to each observing semester.</p>
+
+<p>The web-based proposal tool NorthStar has been successfully used for
+MERLIN and EVN proposals and it will also be
+adopted for the initial submission of e-MERLIN proposals. Invitations for
+proposals for shared-risk observations within the commissioning period
+are now available.  Open PATT time allocations will be made for observations 
+from Semester 2012A. <!-- By this time links to the
+NorthStar e-MERLIN portal will appear on this page. To submit an
+application for time, go to the NorthStar website (register as a new
+user if necessary) and follow the instructions given in the help file
+that you will find on the welcome page.--> 
+</p>
+
+<p> Please consult the <a 
+href="http://www.souk.ac.uk/status.html">status</a> regularly 
+for updates and revisions of the e-MERLIN delivery timeline.<p/>
+
+
+<p> Invitations for proposals will be distributed twice per year and
+submitted proposals will be subject to peer review via a <a 
+href="http://www.scitech.ac.uk/SciProg/Ast/AstDocs/PATT.aspx">PATT</a> 
+e-MERLIN
+Time Allocation Committee (Phase 1). Successful proposals will then be
+subject to a second pass in which full observing details will be
+verified (Phase 2).  By default e-MERLIN observations are dynamically
+scheduled by the operations team. Following the completion of the
+scheduled observations, the user is invited to attend the e-MERLIN
+Visitors Suite housed in the <a 
+href="http://www.jodrellbank.manchester.ac.uk">Jodrell Bank Centre for 
+Astrophysics</a>
+where full face-to-face support is available to assist the user in the
+processing of their data to final astronomical images.</p>
+
+
+<!--#include virtual="/cgi-bin/emerlin_footer.pl?author=$author"-->
+

@@ -1,0 +1,151 @@
+
+                               e-MERLIN/VLBI National Facility
+
+                                    CALL FOR PROPOSALS
+                e-MERLIN is open to proposals from the international
+                astronomical community on the basis of scientific
+                merit alone. Proposals are competitively peer-reviewed
+                under standard STFC rules by the PATT e-MERLIN Time
+                allocation Committee. During the first 5 semesters of
+                e-MERLIN operations ~50% of observing time has been
+                allocated to 11 large legacy projects and most of the
+                remaining time will be allocated via PATT to standard
+                proposals solicited prior to each observing semester.
+
+
+                  Semester 12A Observations : February 2012 - July 2012
+                   Deadline for Receipt of Proposals - 26th January 2012
+    
+                                     **************
+
+
+
+
+
+                             Observing frequencies available:-
+
+
+				L-Band: 1.23GHz to 1.74GHz
+
+				C-Band:  4.5GHz to 7.5GHz
+
+
+
+
+
+         * The Lovell Telescope will be available for up to 15 days at
+	   L-Band and C-Band for during Semester 12A at the discretion
+	   of the University of Manchester. Proposers must make a
+	   detailed case for the inclusion of the Lovell telescope in
+	   their proposed observations. 
+
+  	 * During Semester 12A e-MERLIN operations will be on a shared-risk
+	   basis and no approved programmes are guaranteed time. 
+
+	 * Please note that K-Band will not be available during Semester 12A. 
+
+         * It is envisaged that rapid frequency flexibility between L- and
+	   C-Band will not be available during Semester 12A. 
+	   
+	 * Proposers should consult the allocated e-MERLIN legacy
+           programme to avoid conflicts with these observtions (see
+           notes below). Observations which replicate portions of
+           allocated leagcy projects will not be granted. 
+
+
+        The system parameters for observation of a continuum source in optimum
+	conditions (dry weather conditions and observations above 35 degrees
+	in elevation)are:-
+
+                                       L-Band       C-Band     
+        Maximum angular resolution     ~ 150        ~ 40        (mas)
+        RMS level for 12 hr on source  ~ 12/6**     ~ 13/7**   (uJy/beam)
+        Maximum bandwidth/polarization ~ 300        ~ 500        (MHz)
+
+    ****************************************************************************
+    *   Proposals should be submitted via the e-MERLIN Web-based Proposal Tool *
+    *									       *
+    *   The proposal tool will be open for proposal submissions from	       *
+    *				       January 1st 2012			       *
+    *									       *	
+    *		 http://www.souk.ac.uk/observe/northstar.html	       *
+    ****************************************************************************
+
+
+        Further general information can be obtained via
+
+                   www: http://www.souk.ac.uk
+                   email: emerlin@jb.man.ac.uk
+
+      		      See notes below on next page:
+
+
+
+        Notes:
+
+        ** The use of the Lovell telescope at L-Band, and at C-Band with
+	the new receiver systems reduces the 12 hr. rms noise level by
+	~50% compared with the array not including the Lovell Telescope.
+	
+	Frequency switching: Due to commissioning commitments rapid
+	cycling between L- and C-band will not be
+	permitted. Moderately rapid frequency changes (within an
+	observing run) will be allowed within
+	C-band(4.5-7.5GHz). However, proposers should note that such
+	changes (e.g. observing band 4.5-5.0GHz and 6.5-7.0GHz) within
+	a single observing run (e.g. cycling between bands) whilst
+	permited will result in significant additional calibration
+	overheads and are hence strongly discouraged.
+	
+	Nominal sensitivities are based upon a 12-hr on target observation
+	(~18-hr equivalent with calibration). All sensitivities are for ideal
+	circumstances (source elevation, weather, RFI environment and so forth
+	will have a detrimental effect on the actual sensitivity
+	achieved). During cycle-0 projected sensitivities are subject to
+	changes due to ongoing commissioning activities and cannot be
+	guaranteed. 
+
+	Details of available spectral line configurations are
+	available at http://www.souk.ac.uk/observe/cycle0.html.
+
+	Proposers should take careful note of the observations
+	allocated to the e-MERLIN legacy groups (see
+	http://www.souk.ac.uk/legacy/).  
+	The e-MERLIN Legacy programmes will run concurrently with PATT
+	observations from Semester 12A for up to 5
+	semesters. Proposals for observations which form part of
+	allocated legacy programmes and compromise the scienctific
+	objectives of these programmes will not be allocated by the
+	e-MERLIN TAG. All e-MERLIN legacy proposal are available at
+	http://www.souk.ac.uk/legacy/. Proposers requireing
+	further information should contact emerlin@jb.man.ac.uk for
+	clarification well indavance of proposal submission.  
+        
+        Access to e-MERLIN for Scientists from EU Countries:
+        e-MERLIN is one of the participating institutes in the RadioNet project
+        from which transnational access within the EU to existing observing
+        facilities is financially supported (RadioNet 3).
+
+             e-MERLIN/VLBI National Facility, The University of Manchester,
+                            Jodrell Bank Observatory,
+                                  Macclesfield,
+                                  Cheshire SK11 9DL,
+      	   		     United Kingdom
+
+      			Telephone: +44 (0)1477 571321,
+      			Facsimile: +44 (0)1477 571618,
+      			Email:emerlin@jb.man.ac.uk
+
+
+
+
+
+
+
+
+
+
+
+
+
+

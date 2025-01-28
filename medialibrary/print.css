@@ -1,0 +1,53 @@
+/*
+** Jodrell Bank Observatory CSS style
+** Printer-friendly Version 3.0
+**
+** Created 2006/09/08 by Stuart Lowe
+** Last updated 2006/09/08 by Stuart Lowe
+*/
+
+body {
+	font-size: 12pt;
+	background: url('')!important;
+}
+p.hidden { display:none; }
+.hidden { display: none; }
+#header { float: none !important; margin: 0px; padding-left: 1em; }
+#logo { margin: 0px; left: 0px; }
+.inst { font-size: 1.2em; }
+.navigation { display: none; }
+#wrapper { float: none !important; }
+#contentandsides {
+	background-image: none;
+	position: relative;
+	left:0px;
+	top: 0px;
+	float: none !important;
+	margin: 0px;
+	padding: 0em;
+}
+#gap { display: none; }
+#toolbar { display: none; }
+#tabbedbar { display: none; }
+#middle {
+	float: none !important;;
+	margin: 0px;
+}
+#middle div.left { display: none; float: none !important; }
+#left { display: none; float: none !important; }
+#right { display: none; float: none; }
+#breadcmb { float:none !important; width: auto;}
+#main {
+	float: none !important;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	width: auto;
+}
+#footer { clear:both; color: #999999; border-top: 1px solid black; font-size: 0.8em; }
+#main a[href^="http"]:after {
+	content: " [" attr(href) "] ";
+	font-size: 0.8em;
+}
+#main a[href^="http://jupiter.phy.umist.ac.uk"]:after { content: " "; }
+#main a[href^="http://www.ast.man.ac.uk"]:after { content: " "; }

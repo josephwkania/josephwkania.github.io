@@ -1,0 +1,5 @@
+# AJH 2022 to redirect http to https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://www.souk.ac.uk/$1 [L,R=301]
+

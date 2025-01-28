@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Observe | e-MERLIN</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<meta name="author" content="Rob Beswick" />
+	<meta name="keywords" content="e-MERLIN,National Facility,telescope,VLBI" />
+	<link rel="StyleSheet" type="text/css" href="http://www.souk.ac.uk/medialibrary/style.css" media="screen,print" />
+
+	<link rel="StyleSheet" type="text/css" href="http://www.souk.ac.uk/medialibrary/print.css" media="print" />
+	<link rel="SHORTCUT ICON" href="http://www.manchester.ac.uk/medialibrary/images/corporate/favicon.ico" />
+	<script type="text/javascript" src="http://www.souk.ac.uk/medialibrary/js/jquery-1.2.6.min.js"></script>
+</head>
+<body>
+<div><a name="pagetop"></a></div>
+<div class="nav-skiplinks"><a href="#body" title="Skip to main content">Go to main content</a>&nbsp;<a href="#navigation" title="Skip to main navigation">Go to main navigation</a>&nbsp;<a href="#subnav" title="Skip to section navigation">Go to section navigation</a>
+</div>
+<!-- Start of header -->
+<div id="header">
+
+	<!-- Start of tools -->
+	<!--
+	<div id="toolbar">
+		<form action="http://www.souk.ac.uk/search/" method="get" id="search">
+		<p>
+			<a href="/">Home</a> | 
+			<a href="/aboutus/a-z/">A-Z</a> | 
+			<a href="/contact/">Contacts</a> | 
+			<a href="/local/">Intranet</a> | 
+			<label class="hidden" for="q">Search</label>
+			<input type="text" value="Search" id="q" name="q" onfocus="if(this.value=='Search'){this.value='';}return;" onblur="if(this.value==''){this.value='Search'};return;" /><input type="submit" value="Go" id="searchgo" alt="Search" title="Search" />
+		</p>
+		</form>
+	</div>--> <!-- End of tools -->
+</div> <!-- End of header -->
+<div id="contentandsides">
+	<div id="logo">
+		<div id="logoevn"><a href="http://www.evlbi.org/"><img src="http://www.souk.ac.uk/medialibrary/evn_small.gif" alt="EVN" title="European VLBI Network" /></a></div>
+		<a href="http://www.souk.ac.uk"><img src="http://www.souk.ac.uk/medialibrary/emerlinlogo.png" class="emerlin" alt="e-MERLIN" /></a>
+	</div>
+	<div id="title"> e-MERLIN / VLBI National Radio Astronomy Facility</div>
+
+	<div id="tabbedbar">
+		<div class="tab">
+			<a name="navigation"></a>
+			<ul>
+			<li><a href="http://www.souk.ac.uk/" title="The front page of the e-MERLIN website">Home</a></li>
+			<li><a href="http://www.souk.ac.uk/news/" title="Science highlights from MERLIN and e-MERLIN">News</a></li>
+			<li><a href="http://www.souk.ac.uk/sci/" title="Science Capabilities">Science</a></li>
+
+			<li><a href="http://www.souk.ac.uk/tech/" title="Description of the technical abilities of e-MERLIN">Technical Capabilities</a></li>
+			<li><a href="http://www.souk.ac.uk/status.html" title="The current status of e-MERLIN">Status</a></li>
+			<li><span><a href="http://www.souk.ac.uk/observe/" title="Information about how to use the National Facility">Observe</a></span></li>
+			<li><a href="http://www.souk.ac.uk/legacy/" title="The e-MERLIN Science Legacy Programme">Legacy Programme</a></li>
+			<li><a href="http://www.souk.ac.uk/archive/" title="Access MERLIN and e-MERLIN archive data">Archive</a></li>
+			<li><a href="http://www.souk.ac.uk/vlbi/" title="Very Long Baseline Interferometry">VLBI</a></li>
+
+			<li><a href="http://www.souk.ac.uk/merlin/" title="MERLIN">MERLIN</a></li>
+			</ul>
+		</div> <!-- End of tabs -->
+	</div> <!-- End of main menu -->
+	<div style="clear:both;"></div>
+	<a name="subnav"></a>
+	<div id="left">
+
+					<h2><a href="/">e-MERLIN</a></h2>
+			<ul>
+			<li><a href="http://www.souk.ac.uk/observe/time_awards.html">Time Awards</a>
+			<li><a href="http://www.souk.ac.uk/observe/cycle0.html">Cycle-0 Technical capabilities</a>
+			<li><a href="http://www.souk.ac.uk/observe/northstar.html">Proposal submission tool</a>
+			<li><a href="http://www.souk.ac.uk/observe/eMERLINost.html">e-MERLIN observation simulator tool</a>
+
+			<li><a href="/sci/">Science capabilities</a>
+			<li><a href="/legacy/">Science Legacy Programme</a></li>
+			<li><a href="/tech/">Technical Capabilities</a></li>
+			<li><a href="/status.html">Status update</a></li>
+			</ul>
+
+	</div>
+	<a name="body"></a>
+	<!-- Start of page content -->
+
+	<div id="main">
+<p>
+<center><h2>e-MERLIN Time Awards</h2></p></center>
+
+<p>e-MERLIN is operated by the 
+<a href="http://www.manchester.ac.uk/">University of Manchester</a> as a 
+National Facility of the Science &amp; Technology Facilities 
+Council (<a href="http://www.scitech.ac.uk/">STFC</a>), and is available 
+for use on a peer-review basis, with observing proposals dealt with by 
+the Panel for Allocation of Telescope Time (PATT).  During the first 5 semesters of
+e-MERLIN operations ~50% of observing time has been allocated to 12
+large legacy projects and most of the remaining time will be allocated
+via PATT to standard proposals solicited prior to each observing
+semester. 
+</p>
+<p><b><center>        Semester 2013 Observations (e-MERLIN Cycle-1) 
+          </center></b></p>
+<p>
+Cycle-1 observations will commence in September 2013, with some limitations in observing capabilities. 
+ Some commissioning and
+development work may still take place. Shared risk observations will
+be carried out on a best-effort basis, but essential system work will
+take priority over PATT observations. The continuum bandwidth at C-band is currently limited to
+512MHz. The full 2GHz bandwidth will not become available until a
+later semester. See also the <a href="http://http://www.souk.ac.uk/observe/call_cycle1.html">Cycle 1 call for proposals</a>.</p>
+
+<p>
+<p>
+
+Time was awarded in the following categories:
+
+
+<p>
+
+A: Higher priority -- No commitment is given to complete observations
+in this category although most are likely to be observed. (Lo) means
+that the Lovell telescope may be included.
+
+<p>
+
+B: Lower priority -- No commitment is given to complete observations
+in this category although substantial numbers are likely to be
+observed. For certain projects, this may include observations with a
+subset of the MERLIN array.
+
+<p>
+
+Targets of Opportunity: Observations are not guaranteed, but in the past all or almost all
+of the observations in this category are usually completed, if triggered. 
+
+<p>
+<em>PIs should please consult the Feedback email for advice on resubmission, additional stipulations such as source selection, souce sharing with other proposals or conditions for triggers.</em>
+<p>
+
+<TABLE BORDER=3 WIDTH=100% CELLPADDING=5>
+<TR>
+<TH>CODE</TH>
+<TH>TITLE (may be shortened)</TH>
+<TH>PI</TH>
+<TH>L-Band TIME AWARDED</TH>
+<TH>C-Band TIME AWARDED</TH>
+<TH>K-Band TIME AWARDED</TH>
+<TH>Status</TH>
+</TR>
+<TR><TD>CY1002</TD><TD></TD><TD>Argo           </TD><TD>- </TD><TD> -</TD><TD>- </TD><TD>- </TD></TR>
+<TR><TD>CY1004</TD><TD></TD><TD>Marecki        </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD>- </TD></TR>
+<TR><TD>CY1005</TD><TD></TD><TD>Zjilstra       </TD><TD>- </TD><TD>2 runs (B)</TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1006</TD><TD></TD><TD>Argo           </TD><TD>4 days (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1007</TD><TD></TD><TD>Jackson        </TD><TD>5 runs with Lo (A)</TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1008</TD><TD></TD><TD>Marecki        </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1009</TD><TD></TD><TD>McKean         </TD><TD> </TD><TD>4 runs with Lo (A) </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1010</TD><TD></TD><TD>Schawinski     </TD><TD>2 runs (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1011</TD><TD></TD><TD>Mahony         </TD><TD>1 run with Lo (A)</TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1012</TD><TD></TD><TD>Baan           </TD><TD>1 run with Lo (A)</TD><TD>1 run with Lo (A)</TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1013</TD><TD></TD><TD>Frey           </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1014</TD><TD></TD><TD>Eyres          </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1015</TD><TD></TD><TD>Hoare          </TD><TD>- </TD><TD>2 runs (B) </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1016</TD><TD></TD><TD>Deane          </TD><TD>1 run with Lo (A)</TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1017</TD><TD></TD><TD>Gabanyi        </TD><TD>1 run (B) </TD><TD>1 run (B) </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1018</TD><TD></TD><TD>Cseh           </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1019</TD><TD></TD><TD>Perez Torres   </TD><TD>2 runs (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1020</TD><TD></TD><TD>Swinbank       </TD><TD>2 runs with Lo (A); 2 runs (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1021</TD><TD></TD><TD>Edge           </TD><TD>1 run (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1022</TD><TD></TD><TD>Harrison       </TD><TD>1 run (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1023</TD><TD></TD><TD>Giroletti      </TD><TD>4 runs (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1024</TD><TD></TD><TD>Chapman        </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1025</TD><TD></TD><TD>Leal-Ferreira  </TD><TD>3 runs (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1026</TD><TD></TD><TD>Yang           </TD><TD>1 run (B) </TD><TD>1 run (B)  </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1027</TD><TD></TD><TD>Aalto          </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1028</TD><TD></TD><TD>Engels         </TD><TD>1 run (B) </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1029</TD><TD></TD><TD>Heywood        </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1030</TD><TD></TD><TD>O'Brien        </TD><TD>2 runs (B) </TD><TD>2 runs (B) </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1031</TD><TD></TD><TD>Conway         </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1032</TD><TD></TD><TD>Hales          </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1033</TD><TD></TD><TD>Chemin         </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1034</TD><TD></TD><TD>Etoka          </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1035</TD><TD></TD><TD>Thomson        </TD><TD>3 runs with Lo (A) </TD><TD> </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1036</TD><TD></TD><TD>Esnard         </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1203</TD><TD></TD><TD>Perez-Torres   </TD><TD>1 run (B, one trigger) </TD><TD>3 runs (B, one trigger) </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1204</TD><TD></TD><TD>Perez-Torres   </TD><TD colspan=2> Filler, up to 8 targets </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1205</TD><TD></TD><TD>Perez-Torres   </TD><TD>- </TD><TD>- </TD><TD>- </TD><TD> </TD></TR>
+<TR><TD>CY1501</TD><TD></TD><TD>Stevens        </TD><TD>- </TD><TD>1 run (B) </TD><TD>- </TD><TD> </TD></TR>
+ 
+
+
+</TABLE>
+
+
+	<!-- End of page content -->
+	</div>
+	<div id="footer">
+		<div class="update">
+			<a href="http://www.manchester.ac.uk/"><img src="http://www.souk.ac.uk/medialibrary/logo_man_colour_compact.png" alt="University of Manchester" title="The University of Manchester" /></a>
+
+			<a href="http://www.stfc.ac.uk/"><img src="http://www.souk.ac.uk/medialibrary/stfc.png" alt="STFC" title="The Science and Technology Facilities Council" /></a>
+		</div>
+		<div class="contact vcard">
+			Last updated: Monday 12 December 2011 (16:51)
+			<br />Page Editor: Rob Beswick
+			<div class="adr">
+				<div class="fn org">
+					<span class="organization-name">e-MERLIN/VLBI National Facility</span>,
+					<a class="organization-unit" href="http://www.jodrellbank.manchester.ac.uk/">Jodrell Bank Observatory</a>,
+					<a class="organization-unit extended-address" href="http://www.manchester.ac.uk/">University of Manchester</a></span>,
+				</div>
+
+				<div>
+					<span class="locality">Macclesfield</span>,
+					<span class="postal-code">SK11 9DL</span>,
+					<span class="country-name">United Kingdom</span>
+				</div>
+				<div>
+					<span class="country-name"> <a href="http://www.souk.ac.uk/contact.html">Contact us</a></span
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
